@@ -1,0 +1,623 @@
+Removed Member From Class: ClassName=Power_Supply Member=C17
+Removed Member From Class: ClassName=Gate_Drivers Member=C21
+Removed Member From Class: ClassName=Gate_Drivers Member=C32
+Removed Member From Class: ClassName=Power_Supply Member=C33
+Removed Member From Class: ClassName=Power_Supply Member=C36
+Removed Member From Class: ClassName=Power_Board Member=C39
+Removed Member From Class: ClassName=Power_Supply Member=C39
+Removed Member From Class: ClassName=Power_Board Member=C41
+Removed Member From Class: ClassName=Power_Supply Member=C41
+Removed Member From Class: ClassName=Power_Board Member=C48
+Removed Member From Class: ClassName=Power_Board Member=C50
+Removed Member From Class: ClassName=Power_Supply Member=C50
+Removed Member From Class: ClassName=Power_Board Member=C51
+Removed Member From Class: ClassName=Power_Board Member=C56
+Removed Member From Class: ClassName=Power_Board Member=C57
+Removed Member From Class: ClassName=Power_Board Member=C58
+Removed Member From Class: ClassName=Gate_Drivers Member=C63
+Removed Member From Class: ClassName=Power_Board Member=C63
+Removed Member From Class: ClassName=Power_Supply Member=R7
+Removed Member From Class: ClassName=Gate_Drivers Member=R10
+Removed Member From Class: ClassName=Protection_logic Member=R10
+Removed Member From Class: ClassName=Protection_logic Member=R11
+Removed Member From Class: ClassName=Power_Board Member=R25
+Removed Member From Class: ClassName=Protection_logic Member=R26
+Removed Member From Class: ClassName=Power_Board Member=R27
+Removed Member From Class: ClassName=Power_Board Member=R32
+Removed Member From Class: ClassName=Power_Board Member=R39
+Removed Member From Class: ClassName=Power_Board Member=R40
+Removed Member From Class: ClassName=Gate_Drivers Member=R41
+Removed Member From Class: ClassName=Gate_Drivers Member=R42
+Removed Member From Class: ClassName=Protection_logic Member=R46
+Removed Member From Class: ClassName=Gate_Drivers Member=TP3
+Removed Member From Class: ClassName=Power_Supply Member=TP3
+Removed Member From Class: ClassName=Power_Supply Member=TP4
+Removed Member From Class: ClassName=Power_Supply Member=TP5
+Removed Member From Class: ClassName=Protection_logic Member=TP13
+Removed Member From Class: ClassName=Power_Board Member=TP20
+Removed Member From Class: ClassName=Gate_Drivers Member=TP32
+Added Component: Designator=C43(Capacitor 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470nF"; VariantName = "[No Variations]"
+Added Component: Designator=C53(1812)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C54(1812)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF/16V"; VariantName = "[No Variations]"
+Added Component: Designator=C55(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C66(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1nF"; VariantName = "[No Variations]"
+Added Component: Designator=C67(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF/ 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C70(Cap_SMD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "470nF"; VariantName = "[No Variations]"
+Added Component: Designator=C75(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1nF"; VariantName = "[No Variations]"
+Added Component: Designator=C76(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF/ 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C77(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C78(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C79(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF/ 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C81(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1nF"; VariantName = "[No Variations]"
+Added Component: Designator=CM1(CMC-08)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Latch1(SR latch)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Max1(SOIC 8_ no EP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Max2(SOIC127P600X168_HS-9N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Max3(SOIC 8_ no EP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Max4(SOIC 8_ no EP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Max5(SOIC127P600X168_HS-9N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MEJ1(MEJ2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Pot1(Pot)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Pot2(Pot)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Pot3(Pot)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Pot4(Pot)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R17(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=R55(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R59(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R60(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R61(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R62(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R63(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R64(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=R65(res_smd)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R70(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R75(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R76(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R77(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R78(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R79(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R80(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R81(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R82(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=R83(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=R84(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R85(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R86(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R87(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R88(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R90(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R91(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "392"; VariantName = "[No Variations]"
+Added Component: Designator=R93(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R94(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "392"; VariantName = "[No Variations]"
+Added Component: Designator=R95(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=TP28(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP37(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP38(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP40(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP41(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP42(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP43(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP44(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP45(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP47(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP50(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP53(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP54(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP55(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP56(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP57(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP58(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP59(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP60(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP61(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP62(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP63(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP65(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XC3(SOT-89-5)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=5V_2 Pin=C43-1
+Added Pin To Net: NetName=GND_2 Pin=C43-2
+Added Pin To Net: NetName=NetC53_1 Pin=C53-1
+Added Pin To Net: NetName=GND Pin=C53-2
+Added Pin To Net: NetName=NetC54_1 Pin=C54-1
+Added Pin To Net: NetName=NetC54_2 Pin=C54-2
+Added Pin To Net: NetName=GND_SS1 Pin=C55-1
+Added Pin To Net: NetName=NetC55_2 Pin=C55-2
+Added Pin To Net: NetName=NetC66_1 Pin=C66-1
+Added Pin To Net: NetName=+5V_P Pin=C67-1
+Added Pin To Net: NetName=GND Pin=C67-2
+Added Pin To Net: NetName=NetC70_1 Pin=C70-1
+Added Pin To Net: NetName=DSP_GND Pin=C70-2
+Added Pin To Net: NetName=NetC75_1 Pin=C75-1
+Added Pin To Net: NetName=NetC75_2 Pin=C75-2
+Added Pin To Net: NetName=Net2_14 Pin=C76-1
+Added Pin To Net: NetName=GND Pin=C76-2
+Added Pin To Net: NetName=GND Pin=C77-1
+Added Pin To Net: NetName=Net2_14 Pin=C77-2
+Added Pin To Net: NetName=GND Pin=C78-1
+Added Pin To Net: NetName=Net2_14 Pin=C79-1
+Added Pin To Net: NetName=GND Pin=C79-2
+Added Pin To Net: NetName=NetC81_1 Pin=C81-1
+Added Pin To Net: NetName=GND Pin=C81-2
+Added Pin To Net: NetName=NetC53_1 Pin=CM1-1
+Added Pin To Net: NetName=NetC54_1 Pin=CM1-2
+Added Pin To Net: NetName=NetC54_2 Pin=CM1-3
+Added Pin To Net: NetName=GND Pin=CM1-4
+Added Pin To Net: NetName=Netdigitalopt1_2 Pin=Latch1-2
+Added Pin To Net: NetName=NetLatch1_3 Pin=Latch1-3
+Added Pin To Net: NetName=Net3_8 Pin=Latch1-4
+Added Pin To Net: NetName=NetLatch1_5 Pin=Latch1-5
+Added Pin To Net: NetName=GND Pin=Latch1-8
+Added Pin To Net: NetName=+5V_P Pin=Latch1-16
+Added Pin To Net: NetName=NetMax1_1 Pin=Max1-1
+Added Pin To Net: NetName=NetMax1_2 Pin=Max1-2
+Added Pin To Net: NetName=NetDZ1_1 Pin=Max1-3
+Added Pin To Net: NetName=GND Pin=Max1-4
+Added Pin To Net: NetName=NetMax1_5 Pin=Max1-5
+Added Pin To Net: NetName=NetDZ1_1 Pin=Max1-6
+Added Pin To Net: NetName=NetDZ3_1 Pin=Max1-7
+Added Pin To Net: NetName=Net2_14 Pin=Max1-8
+Added Pin To Net: NetName=NetFB9_2 Pin=Max2-1
+Added Pin To Net: NetName=NetC68_2 Pin=Max2-2
+Added Pin To Net: NetName=GND Pin=Max2-3
+Added Pin To Net: NetName=GND Pin=Max2-4
+Added Pin To Net: NetName=NetMax2_5 Pin=Max2-5
+Added Pin To Net: NetName=NetMax2_7 Pin=Max2-7
+Added Pin To Net: NetName=Net2_14 Pin=Max2-8
+Added Pin To Net: NetName=GND Pin=Max2-9
+Added Pin To Net: NetName=NetMax3_1 Pin=Max3-1
+Added Pin To Net: NetName=NetMax3_2 Pin=Max3-2
+Added Pin To Net: NetName=NetDZ4_1 Pin=Max3-3
+Added Pin To Net: NetName=GND Pin=Max3-4
+Added Pin To Net: NetName=Net2_14 Pin=Max3-8
+Added Pin To Net: NetName=NetMax4_1 Pin=Max4-1
+Added Pin To Net: NetName=NetMax4_2 Pin=Max4-2
+Added Pin To Net: NetName=GND Pin=Max4-4
+Added Pin To Net: NetName=NetMax4_5 Pin=Max4-5
+Added Pin To Net: NetName=NetDZ9_1 Pin=Max4-6
+Added Pin To Net: NetName=NetMax4_7 Pin=Max4-7
+Added Pin To Net: NetName=Net2_14 Pin=Max4-8
+Added Pin To Net: NetName=NetFB18_2 Pin=Max5-1
+Added Pin To Net: NetName=NetC85_2 Pin=Max5-2
+Added Pin To Net: NetName=GND Pin=Max5-3
+Added Pin To Net: NetName=GND Pin=Max5-4
+Added Pin To Net: NetName=NetMax5_5 Pin=Max5-5
+Added Pin To Net: NetName=NetMax5_7 Pin=Max5-7
+Added Pin To Net: NetName=Net2_14 Pin=Max5-8
+Added Pin To Net: NetName=GND Pin=Max5-9
+Added Pin To Net: NetName=NetC54_1 Pin=MEJ1-1
+Added Pin To Net: NetName=NetC54_2 Pin=MEJ1-2
+Added Pin To Net: NetName=GND_SS1 Pin=MEJ1-5
+Added Pin To Net: NetName=NetC55_2 Pin=MEJ1-7
+Added Pin To Net: NetName=NetMax1_2 Pin=Pot1-1
+Added Pin To Net: NetName=GND Pin=Pot1-3
+Added Pin To Net: NetName=NetMax1_5 Pin=Pot2-1
+Added Pin To Net: NetName=GND Pin=Pot2-2
+Added Pin To Net: NetName=NetMax3_2 Pin=Pot3-1
+Added Pin To Net: NetName=GND Pin=Pot3-2
+Added Pin To Net: NetName=NetMax4_2 Pin=Pot4-1
+Added Pin To Net: NetName=GND Pin=Pot4-3
+Added Pin To Net: NetName=NetP2_21 Pin=R17-1
+Added Pin To Net: NetName=NetC35_1 Pin=R17-2
+Added Pin To Net: NetName=NetLatch1_5 Pin=R55-1
+Added Pin To Net: NetName=+5V_P Pin=R55-2
+Added Pin To Net: NetName=NetFB11_1 Pin=R59-1
+Added Pin To Net: NetName=NetMax1_1 Pin=R59-2
+Added Pin To Net: NetName=NetFB12_1 Pin=R60-1
+Added Pin To Net: NetName=NetDZ3_1 Pin=R60-2
+Added Pin To Net: NetName=NetFB13_1 Pin=R61-1
+Added Pin To Net: NetName=NetMax4_1 Pin=R61-2
+Added Pin To Net: NetName=NetC75_1 Pin=R62-1
+Added Pin To Net: NetName=NetC75_2 Pin=R62-2
+Added Pin To Net: NetName=NetFB14_1 Pin=R63-1
+Added Pin To Net: NetName=NetMax4_7 Pin=R63-2
+Added Pin To Net: NetName=NetMax3_2 Pin=R64-1
+Added Pin To Net: NetName=Net2_14 Pin=R64-2
+Added Pin To Net: NetName=NetFB15_1 Pin=R65-1
+Added Pin To Net: NetName=NetMax3_1 Pin=R65-2
+Added Pin To Net: NetName=NetFB16_1 Pin=R70-1
+Added Pin To Net: NetName=NetC75_1 Pin=R70-2
+Added Pin To Net: NetName=Net2_3 Pin=R75-1
+Added Pin To Net: NetName=GND Pin=R75-2
+Added Pin To Net: NetName=NetC81_1 Pin=R76-1
+Added Pin To Net: NetName=GND Pin=R76-2
+Added Pin To Net: NetName=Net2_4 Pin=R77-1
+Added Pin To Net: NetName=Net2_3 Pin=R77-2
+Added Pin To Net: NetName=Net2_5 Pin=R78-1
+Added Pin To Net: NetName=Net3_6 Pin=R78-2
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Pin To Net: NetName=Net2_6 Pin=R79-2
+Added Pin To Net: NetName=Net2_6 Pin=R80-1
+Added Pin To Net: NetName=Net3_10 Pin=R80-2
+Added Pin To Net: NetName=GND Pin=R81-2
+Added Pin To Net: NetName=NetMax4_2 Pin=R82-1
+Added Pin To Net: NetName=Net2_14 Pin=R82-2
+Added Pin To Net: NetName=NetMax4_5 Pin=R83-1
+Added Pin To Net: NetName=Net2_14 Pin=R83-2
+Added Pin To Net: NetName=NetMax5_7 Pin=R84-1
+Added Pin To Net: NetName=Net2_14 Pin=R84-2
+Added Pin To Net: NetName=Net3_6 Pin=R85-2
+Added Pin To Net: NetName=GND Pin=R86-1
+Added Pin To Net: NetName=NetMax5_7 Pin=R86-2
+Added Pin To Net: NetName=NetFB17_1 Pin=R87-1
+Added Pin To Net: NetName=NetMax5_5 Pin=R87-2
+Added Pin To Net: NetName=GND Pin=R88-1
+Added Pin To Net: NetName=NetMax4_7 Pin=R88-2
+Added Pin To Net: NetName=NetC39_1 Pin=R90-1
+Added Pin To Net: NetName=NetR90_2 Pin=R90-2
+Added Pin To Net: NetName=NetC88_2 Pin=R91-1
+Added Pin To Net: NetName=GND_1 Pin=R91-2
+Added Pin To Net: NetName=NetC47_1 Pin=R93-1
+Added Pin To Net: NetName=NetR93_2 Pin=R93-2
+Added Pin To Net: NetName=NetC96_2 Pin=R94-1
+Added Pin To Net: NetName=GND_2 Pin=R94-2
+Added Pin To Net: NetName=NetR93_2 Pin=R95-1
+Added Pin To Net: NetName=GND_2 Pin=R95-2
+Added Pin To Net: NetName=NetC52_1 Pin=TP28-1
+Added Pin To Net: NetName=GND Pin=TP35-1
+Added Pin To Net: NetName=Netdigitalopt1_2 Pin=TP37-1
+Added Pin To Net: NetName=NetFB9_2 Pin=TP38-1
+Added Pin To Net: NetName=NetMax2_7 Pin=TP40-1
+Added Pin To Net: NetName=NetMax1_5 Pin=TP41-1
+Added Pin To Net: NetName=NetC68_2 Pin=TP42-1
+Added Pin To Net: NetName=NetDZ1_1 Pin=TP43-1
+Added Pin To Net: NetName=NetMax3_2 Pin=TP45-1
+Added Pin To Net: NetName=NetC75_1 Pin=TP47-1
+Added Pin To Net: NetName=NetDZ2_1 Pin=TP50-1
+Added Pin To Net: NetName=Net3_6 Pin=TP53-1
+Added Pin To Net: NetName=Net2_6 Pin=TP54-1
+Added Pin To Net: NetName=Net3_9 Pin=TP55-1
+Added Pin To Net: NetName=Net3_8 Pin=TP56-1
+Added Pin To Net: NetName=NetFB18_2 Pin=TP57-1
+Added Pin To Net: NetName=NetMax4_2 Pin=TP58-1
+Added Pin To Net: NetName=NetMax5_7 Pin=TP59-1
+Added Pin To Net: NetName=NetMax4_5 Pin=TP60-1
+Added Pin To Net: NetName=NetC85_2 Pin=TP61-1
+Added Pin To Net: NetName=NetDZ9_1 Pin=TP62-1
+Added Pin To Net: NetName=NetR89_2 Pin=TP63-1
+Added Pin To Net: NetName=NetC88_2 Pin=TP65-1
+Added Pin To Net: NetName=NetC39_1 Pin=XC3-1
+Added Pin To Net: NetName=GND_1 Pin=XC3-2
+Added Pin To Net: NetName=NetC88_2 Pin=XC3-3
+Added Pin To Net: NetName=NetR90_2 Pin=XC3-4
+Added Pin To Net: NetName=NetC88_2 Pin=XC3-5
+Added Member To Class: ClassName=Power_Board Member=Component 1 Control Board
+Added Member To Class: ClassName=Power_Board Member=Component C8 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C10 Output_cap
+Added Member To Class: ClassName=Power_Board Member=Component C12 Output_cap
+Added Member To Class: ClassName=Power_Board Member=Component C14 Output_cap
+Added Member To Class: ClassName=Power_Board Member=Component C15 Output_cap
+Added Member To Class: ClassName=Power_Board Member=Component C18 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C22 Cap Pol3
+Added Member To Class: ClassName=Power_Board Member=Component C23 Cap Pol3
+Added Member To Class: ClassName=Power_Board Member=Component C27 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C28 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C31 Cap Pol3
+Added Member To Class: ClassName=Power_Board Member=Component C34 Cap Pol3
+Added Member To Class: ClassName=Gate_Drivers Member=Component C37 Cap
+Added Member To Class: ClassName=Gate_Drivers Member=Component C38 Cap
+Added Member To Class: ClassName=Gate_Drivers Member=Component C40 22uF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C42 Cap
+Added Member To Class: ClassName=Gate_Drivers Member=Component C43 Cap
+Added Member To Class: ClassName=Gate_Drivers Member=Component C44 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C45 22uF/25V
+Added Member To Class: ClassName=Gate_Drivers Member=Component C46 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C47 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C52 100nF
+Added Member To Class: ClassName=Power_Supply Member=Component C53 16V
+Added Member To Class: ClassName=Power_Supply Member=Component C54 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C55 16V
+Added Member To Class: ClassName=Power_Supply Member=Component C56 Cap Semi
+Added Member To Class: ClassName=Power_Supply Member=Component C57 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C58 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C59 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C60 Cap Semi
+Added Member To Class: ClassName=Power_Supply Member=Component C61 Cap Semi
+Added Member To Class: ClassName=Power_Supply Member=Component C62 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C65 22uF
+Added Member To Class: ClassName=Protection_logic Member=Component C66 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C67 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C70 100nF
+Added Member To Class: ClassName=Protection_logic Member=Component C71 100nF
+Added Member To Class: ClassName=Protection_logic Member=Component C72 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C73 100nF
+Added Member To Class: ClassName=Protection_logic Member=Component C74 100nF
+Added Member To Class: ClassName=Protection_logic Member=Component C75 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C76 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C77 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C78 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C79 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C80 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C81 16V
+Added Member To Class: ClassName=Power_Supply Member=Component CM1 CMC-08
+Added Member To Class: ClassName=Power_Board Member=Component Current_Sense4 ACS712-05
+Added Member To Class: ClassName=Gate_Drivers Member=Component D8 PMEG2010EPK
+Added Member To Class: ClassName=Protection_logic Member=Component Latch1 SR NOR Latch
+Added Member To Class: ClassName=Protection_logic Member=Component Max1 Comparator MAX942
+Added Member To Class: ClassName=Protection_logic Member=Component Max2 Diffrential Amp MAX9919
+Added Member To Class: ClassName=Protection_logic Member=Component Max3 Comparator MAX942
+Added Member To Class: ClassName=Protection_logic Member=Component Max4 Comparator MAX942
+Added Member To Class: ClassName=Protection_logic Member=Component Max5 Diffrential Amp MAX9919
+Added Member To Class: ClassName=Power_Supply Member=Component MEJ1 MEJ2S1212SC
+Added Member To Class: ClassName=Protection_logic Member=Component Pot1 20K
+Added Member To Class: ClassName=Protection_logic Member=Component Pot2 20K
+Added Member To Class: ClassName=Protection_logic Member=Component Pot3 20K
+Added Member To Class: ClassName=Protection_logic Member=Component Pot4 20K
+Added Member To Class: ClassName=Power_Board Member=Component R2 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R3 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R4 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R5 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R7 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R8 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R9 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R10 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R17 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component R21 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R22 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R23 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R24 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R31 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R33 Res3
+Added Member To Class: ClassName=Gate_Drivers Member=Component R36 Res3
+Added Member To Class: ClassName=Power_Supply Member=Component R43 res_smd
+Added Member To Class: ClassName=Power_Supply Member=Component R44 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R47 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R48 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R49 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R50 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R55 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R59 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R60 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R61 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R62 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R63 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R64 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R65 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R67 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R68 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R70 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R71 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R72 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R75 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R76 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R77 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R78 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R79 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R80 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R81 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R82 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R83 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R84 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R85 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R86 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R87 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R88 res_smd
+Added Member To Class: ClassName=Power_Supply2 Member=Component R90 res_smd
+Added Member To Class: ClassName=Power_Supply2 Member=Component R91 res_smd
+Added Member To Class: ClassName=Power_Supply2 Member=Component R93 res_smd
+Added Member To Class: ClassName=Power_Supply2 Member=Component R94 res_smd
+Added Member To Class: ClassName=Power_Supply2 Member=Component R95 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component TP3 Test point
+Added Member To Class: ClassName=Power_Board Member=Component TP4 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP21 Test point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP22 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP24 Test point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP28 Test Point
+Added Member To Class: ClassName=Power_Supply Member=Component TP33 Test Point
+Added Member To Class: ClassName=Power_Supply Member=Component TP34 Test Point
+Added Member To Class: ClassName=Power_Supply Member=Component TP35 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP36 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP37 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP38 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP40 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP41 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP42 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP43 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP44 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP45 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP47 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP50 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP51 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP52 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP53 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP54 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP55 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP56 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP57 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP58 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP59 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP60 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP61 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP62 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP63 Test Point
+Added Member To Class: ClassName=Power_Supply2 Member=Component TP65 Test Point
+Added Member To Class: ClassName=Power_Supply2 Member=Component XC3 XC6216C202PR-G

@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=NetDAC1_2 Pin=P3-27
+Added Pin To Net: NetName=NetDAC1_19 Pin=P3-28
+Added Pin To Net: NetName=NetDAC1_4 Pin=P3-30
+Added Pin To Net: NetName=x1 Pin=DAC1-3
+Added Pin To Net: NetName=x1 Pin=P3-29
+Added Net: Name=x1

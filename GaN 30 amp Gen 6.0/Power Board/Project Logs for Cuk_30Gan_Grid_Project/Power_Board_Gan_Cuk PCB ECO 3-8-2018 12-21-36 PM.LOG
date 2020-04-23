@@ -1,0 +1,6 @@
+Added Component: Designator=R83(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLatch1_10 Pin=R83-1
+Added Pin To Net: NetName=GND Pin=R83-2
+Added Member To Class: ClassName=Protection_logic Member=Component R83 res_smd

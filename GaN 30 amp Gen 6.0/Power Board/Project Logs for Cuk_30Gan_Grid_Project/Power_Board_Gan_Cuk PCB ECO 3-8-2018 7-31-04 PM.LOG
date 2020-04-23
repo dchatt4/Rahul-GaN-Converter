@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetD2_2 Pin=TP10-1
+Removed Pin From Net: NetName=NetD4_2 Pin=TP18-1
+Removed Pin From Net: NetName=NetC57_1 Pin=TP24-1
+Removed Pin From Net: NetName=NetC58_2 Pin=TP25-1
+Removed Pin From Net: NetName=NetC62_1 Pin=TP26-1
+Removed Pin From Net: NetName=NetC63_2 Pin=TP27-1
+Removed Pin From Net: NetName=NetC56_1 Pin=TP28-1
+Removed Pin From Net: NetName=NetC96_1 Pin=TP48-1
+Removed Pin From Net: NetName=NetC97_2 Pin=TP49-1
+Removed Pin From Net: NetName=NetC101_1 Pin=TP50-1
+Removed Pin From Net: NetName=NetC102_2 Pin=TP51-1
+Removed Pin From Net: NetName=+5V_P Pin=TP52-1
+Removed Pin From Net: NetName=GND Pin=TP53-1
+Removed Pin From Net: NetName=-5V_P Pin=TP54-1
+Removed Member From Class: ClassName=Power_Supply Member=TP24
+Removed Member From Class: ClassName=Power_Supply Member=TP25
+Removed Member From Class: ClassName=Power_Supply Member=TP26
+Removed Member From Class: ClassName=Power_Supply Member=TP27
+Removed Member From Class: ClassName=Power_Supply Member=TP28
+Removed Member From Class: ClassName=Power_Supply2 Member=TP48
+Removed Member From Class: ClassName=Power_Supply2 Member=TP49
+Removed Member From Class: ClassName=Power_Supply2 Member=TP50
+Removed Member From Class: ClassName=Power_Supply2 Member=TP51
+Removed Member From Class: ClassName=Power_Supply2 Member=TP52
+Removed Member From Class: ClassName=Power_Supply2 Member=TP53
+Removed Member From Class: ClassName=Power_Supply2 Member=TP54
+Added Component: Designator=TP10(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP18(Test Point)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=TP10-1
+Added Pin To Net: NetName=GND Pin=TP18-1

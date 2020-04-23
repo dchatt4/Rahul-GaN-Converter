@@ -1,0 +1,10 @@
+Added Component: Designator=R18(Res_Snub)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "5ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=NetCs3_2 Pin=R18-2
+Added Pin To Net: NetName=NetCs3_2 Pin=R18-2
+Added Pin To Net: NetName=NetCs3_2 Pin=R18-2
+Added Member To Class: ClassName=Power_Board Member=Component R18 res_snubber

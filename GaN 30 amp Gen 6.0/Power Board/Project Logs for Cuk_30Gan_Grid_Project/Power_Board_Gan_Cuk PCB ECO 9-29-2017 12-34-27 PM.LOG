@@ -1,0 +1,32 @@
+Added Component: Designator=Rsense1(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense2(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense3(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense4(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetGaN1_S Pin=Rsense1-1
+Added Pin To Net: NetName=GND Pin=Rsense1-2
+Added Pin To Net: NetName=NetGaN3_S Pin=Rsense2-1
+Added Pin To Net: NetName=GND_SS1 Pin=Rsense2-2
+Added Pin To Net: NetName=NetGaN5_S Pin=Rsense3-1
+Added Pin To Net: NetName=GND_SS2 Pin=Rsense3-2
+Added Pin To Net: NetName=NetGaN7_S Pin=Rsense4-1
+Added Pin To Net: NetName=GND Pin=Rsense4-2
+Added Pin To Net: NetName=NetRsense1_3 Pin=Rsense1-3
+Added Net: Name=NetRsense1_3
+Added Pin To Net: NetName=NetRsense1_4 Pin=Rsense1-4
+Added Net: Name=NetRsense1_4
+Added Pin To Net: NetName=NetRsense2_3 Pin=Rsense2-3
+Added Net: Name=NetRsense2_3
+Added Pin To Net: NetName=NetRsense2_4 Pin=Rsense2-4
+Added Net: Name=NetRsense2_4
+Added Pin To Net: NetName=NetRsense3_3 Pin=Rsense3-3
+Added Net: Name=NetRsense3_3
+Added Pin To Net: NetName=NetRsense3_4 Pin=Rsense3-4
+Added Net: Name=NetRsense3_4
+Added Pin To Net: NetName=NetRsense4_3 Pin=Rsense4-3
+Added Net: Name=NetRsense4_3
+Added Pin To Net: NetName=NetRsense4_4 Pin=Rsense4-4
+Added Net: Name=NetRsense4_4

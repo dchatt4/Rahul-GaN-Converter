@@ -1,0 +1,14 @@
+Added Component: Designator=T1(Transformer)
+Add component. Clean all parameters for all variants
+Added Component: Designator=T2(Transformer)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC47_2 Pin=T1-1
+Added Pin To Net: NetName=GND Pin=T1-2
+Added Pin To Net: NetName=GND_SS1 Pin=T1-3
+Added Pin To Net: NetName=NetC48_1 Pin=T1-4
+Added Pin To Net: NetName=NetC51_2 Pin=T2-1
+Added Pin To Net: NetName=GND Pin=T2-2
+Added Pin To Net: NetName=GND_SS2 Pin=T2-3
+Added Pin To Net: NetName=NetC52_1 Pin=T2-4
+Added Member To Class: ClassName=Power_Board Member=Component T1 Transformer
+Added Member To Class: ClassName=Power_Board Member=Component T2 Transformer

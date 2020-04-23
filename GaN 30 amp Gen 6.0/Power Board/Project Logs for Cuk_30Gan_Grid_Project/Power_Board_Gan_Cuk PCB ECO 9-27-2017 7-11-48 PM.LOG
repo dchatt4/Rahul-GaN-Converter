@@ -1,0 +1,87 @@
+Removed Pin From Net: NetName=GND Pin=C57-1
+Removed Pin From Net: NetName=NetC30_1 Pin=C57-2
+Removed Pin From Net: NetName=NetC30_1 Pin=C58-1
+Removed Pin From Net: NetName=GND Pin=C58-2
+Removed Pin From Net: NetName=NetC30_1 Pin=D11-3
+Removed Pin From Net: NetName=NetC30_1 Pin=D12-3
+Removed Pin From Net: NetName=NetC48_2 Pin=D_Sic1-1
+Removed Pin From Net: NetName=NetC48_2 Pin=D_Sic1-1
+Removed Pin From Net: NetName=GND_SS1 Pin=D_Sic1-3
+Removed Pin From Net: NetName=GND_SS1 Pin=D_Sic1-3
+Removed Pin From Net: NetName=NetC52_2 Pin=D_Sic2-1
+Removed Pin From Net: NetName=NetC52_2 Pin=D_Sic2-1
+Removed Pin From Net: NetName=GND_SS2 Pin=D_Sic2-3
+Removed Pin From Net: NetName=GND_SS2 Pin=D_Sic2-3
+Removed Pin From Net: NetName=GND Pin=DP1-1
+Removed Pin From Net: NetName=GND Pin=DP1-1
+Removed Pin From Net: NetName=NetC47_1 Pin=DP1-2
+Removed Pin From Net: NetName=NetC47_1 Pin=DP1-2
+Removed Pin From Net: NetName=GND Pin=DP1-3
+Removed Pin From Net: NetName=GND Pin=DP1-3
+Removed Pin From Net: NetName=GND Pin=DP2-1
+Removed Pin From Net: NetName=GND Pin=DP2-1
+Removed Pin From Net: NetName=NetC51_1 Pin=DP2-2
+Removed Pin From Net: NetName=NetC51_1 Pin=DP2-2
+Removed Pin From Net: NetName=GND Pin=DP2-3
+Removed Pin From Net: NetName=GND Pin=DP2-3
+Removed Pin From Net: NetName=NetCurrent_Sense2_3 Pin=Grid1-2
+Removed Pin From Net: NetName=NetCurrent_Sense2_3 Pin=Grid1-2
+Removed Pin From Net: NetName=NetP1_1 Pin=Q1-1
+Removed Pin From Net: NetName=NetP1_1 Pin=Q1-1
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=NetP1_3 Pin=Q2-1
+Removed Pin From Net: NetName=NetP1_3 Pin=Q2-1
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=R31-2
+Removed Pin From Net: NetName=GND Pin=R31-2
+Removed Pin From Net: NetName=GND Pin=R31-2
+Removed Pin From Net: NetName=GND Pin=R32-2
+Removed Pin From Net: NetName=GND Pin=R32-2
+Removed Pin From Net: NetName=GND Pin=R32-2
+Removed Pin From Net: NetName=NetC30_1 Pin=R33-1
+Removed Pin From Net: NetName=NetP1_1 Pin=R33-2
+Removed Pin From Net: NetName=NetC30_1 Pin=R34-1
+Removed Pin From Net: NetName=NetP1_3 Pin=R34-2
+Removed Pin From Net: NetName=NetCurrent_Sense2_3 Pin=Relay1-2
+Removed Pin From Net: NetName=NetC30_1 Pin=Relay1-3
+Removed Pin From Net: NetName=NetCurrent_Sense1_3 Pin=Relay2-1
+Removed Pin From Net: NetName=NetC30_1 Pin=Relay2-3
+Removed Member From Class: ClassName=Power_Board Member=C55
+Removed Member From Class: ClassName=Power_Board Member=C56
+Removed Member From Class: ClassName=Power_Board Member=C57
+Removed Member From Class: ClassName=Power_Board Member=C58
+Removed Member From Class: ClassName=Power_Board Member=D11
+Removed Member From Class: ClassName=Power_Board Member=D12
+Removed Member From Class: ClassName=Power_Board Member=D_Sic1
+Removed Member From Class: ClassName=Power_Board Member=D_Sic2
+Removed Member From Class: ClassName=Power_Board Member=DP1
+Removed Member From Class: ClassName=Power_Board Member=DP2
+Removed Member From Class: ClassName=Power_Board Member=Grid1
+Removed Member From Class: ClassName=Power_Board Member=Q1
+Removed Member From Class: ClassName=Power_Board Member=Q2
+Removed Member From Class: ClassName=Power_Board Member=R31
+Removed Member From Class: ClassName=Power_Board Member=R32
+Removed Member From Class: ClassName=Power_Board Member=R33
+Removed Member From Class: ClassName=Power_Board Member=R34
+Removed Member From Class: ClassName=Power_Board Member=Relay1
+Removed Member From Class: ClassName=Power_Board Member=Relay2
+Change Component Designator: OldDesignator=Grid Sense NewDesignator=Aux2
+Added Component: Designator=GaN?(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN?(GS66508B)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC47_1 Pin=GaN?-D
+Added Pin To Net: NetName=NetC51_1 Pin=GaN?-D
+Added Pin To Net: NetName=NetDZ1_1 Pin=GaN?-G
+Added Pin To Net: NetName=NetDZ3_1 Pin=GaN?-G
+Added Pin To Net: NetName=GND Pin=GaN?-SS
+Added Pin To Net: NetName=GND Pin=GaN?-SS
+Added Pin To Net: NetName=GND Pin=GaN?-S
+Added Pin To Net: NetName=GND Pin=GaN?-S
+Added Pin To Net: NetName=NetCurrent_Sense2_3 Pin=Load1-2
+Added Pin To Net: NetName=NetCurrent_Sense2_3 Pin=Load1-2
+Added Member To Class: ClassName=Power_Board Member=Component GaN? GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN? GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component L2 inductor

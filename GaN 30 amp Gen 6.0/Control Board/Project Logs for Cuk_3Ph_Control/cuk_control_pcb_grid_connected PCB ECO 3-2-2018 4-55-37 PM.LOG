@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC71_1 Pin=E-1
+Removed Pin From Net: NetName=NetC73_1 Pin=F-1
+Removed Pin From Net: NetName=NetC74_1 Pin=G-1
+Removed Pin From Net: NetName=NetC75_1 Pin=H-1
+Removed Member From Class: ClassName=DAC Member=E
+Removed Member From Class: ClassName=DAC Member=F
+Removed Member From Class: ClassName=DAC Member=G
+Removed Member From Class: ClassName=DAC Member=H
+Added Member To Class: ClassName=DAC Member=Component 1 TLC2272 SOIC-8

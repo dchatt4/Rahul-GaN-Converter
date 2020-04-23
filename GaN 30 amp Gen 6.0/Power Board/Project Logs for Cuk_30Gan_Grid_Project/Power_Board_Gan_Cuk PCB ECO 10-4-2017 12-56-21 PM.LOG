@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=Aux2 NewDesignator=Grid
+Added Component: Designator=L2(Inductor_small_mirror)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetCurrent_Sense4_3 Pin=L2-1
+Added Pin To Net: NetName=NetC51_1 Pin=L2-2
+Change Net Name : Old Net Name=NetAux2_1 New Net Name=NetGrid_1
+Change Net Name : Old Net Name=NetAux2_2 New Net Name=NetGrid_2
+Added Member To Class: ClassName=Power_Board Member=Component L2 inductor

@@ -1,0 +1,62 @@
+Removed Member From Class: ClassName=Protection_logic Member=ZD1
+Added Component: Designator=GD1(Si8271)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GD2(Si8271)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GD3(Si8271)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GD4(Si8271)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5V_P Pin=GD1-2
+Added Pin To Net: NetName=GND_P1 Pin=GD1-5
+Added Pin To Net: NetName=G2 Pin=GD1-6
+Added Pin To Net: NetName=G1 Pin=GD1-7
+Added Pin To Net: NetName=Net2_8 Pin=GD1-8
+Added Pin To Net: NetName=+5V_P Pin=GD2-2
+Added Pin To Net: NetName=GND_S1 Pin=GD2-5
+Added Pin To Net: NetName=G4 Pin=GD2-6
+Added Pin To Net: NetName=G3 Pin=GD2-7
+Added Pin To Net: NetName=Net3_8 Pin=GD2-8
+Added Pin To Net: NetName=+5V_P Pin=GD3-2
+Added Pin To Net: NetName=GND Pin=GD3-4
+Added Pin To Net: NetName=GND_P2 Pin=GD3-5
+Added Pin To Net: NetName=G6 Pin=GD3-6
+Added Pin To Net: NetName=G5 Pin=GD3-7
+Added Pin To Net: NetName=Net4_8 Pin=GD3-8
+Added Pin To Net: NetName=+5V_P Pin=GD4-2
+Added Pin To Net: NetName=GND Pin=GD4-4
+Added Pin To Net: NetName=GND_S2 Pin=GD4-5
+Added Pin To Net: NetName=G8 Pin=GD4-6
+Added Pin To Net: NetName=G7 Pin=GD4-7
+Added Pin To Net: NetName=Net5_8 Pin=GD4-8
+Change Net Name : Old Net Name=Net2_8 New Net Name=NetC36_1
+Change Net Name : Old Net Name=Net3_8 New Net Name=NetC41_1
+Change Net Name : Old Net Name=Net4_8 New Net Name=NetC46_1
+Change Net Name : Old Net Name=Net5_8 New Net Name=NetC51_1
+Added Pin To Net: NetName=NetGD1_1 Pin=GD1-1
+Added Pin To Net: NetName=NetGD1_1 Pin=R21-1
+Added Pin To Net: NetName=NetGD1_1 Pin=TP20-1
+Added Net: Name=NetGD1_1
+Added Pin To Net: NetName=NetGD1_3 Pin=GD1-3
+Added Pin To Net: NetName=NetGD1_3 Pin=GD2-3
+Added Pin To Net: NetName=NetGD1_3 Pin=GD3-3
+Added Pin To Net: NetName=NetGD1_3 Pin=GD4-3
+Added Pin To Net: NetName=NetGD1_3 Pin=Jumper2-2
+Added Net: Name=NetGD1_3
+Added Pin To Net: NetName=NetGD2_1 Pin=GD2-1
+Added Pin To Net: NetName=NetGD2_1 Pin=R26-1
+Added Pin To Net: NetName=NetGD2_1 Pin=TP21-1
+Added Net: Name=NetGD2_1
+Added Pin To Net: NetName=NetGD3_1 Pin=GD3-1
+Added Pin To Net: NetName=NetGD3_1 Pin=R31-1
+Added Pin To Net: NetName=NetGD3_1 Pin=TP22-1
+Added Net: Name=NetGD3_1
+Added Pin To Net: NetName=NetGD4_1 Pin=GD4-1
+Added Pin To Net: NetName=NetGD4_1 Pin=R36-1
+Added Pin To Net: NetName=NetGD4_1 Pin=TP23-1
+Added Net: Name=NetGD4_1
+Added Member To Class: ClassName=Gate_Drivers Member=Component GD1 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component GD2 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component GD3 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component GD4 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis3 res_smd

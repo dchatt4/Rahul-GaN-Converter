@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=DSP_5V Pin=Rx1-2
+Added Pin To Net: NetName=DSP_5V Pin=Rx3-2
+Added Pin To Net: NetName=DSP_5V Pin=Rx5-2
+Added Pin To Net: NetName=DSP_5V Pin=U13-4

@@ -1,0 +1,14 @@
+Source PCB Design combined.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Free Documents]
+   Generated File[combined.TXT]
+   Generated File[combined.LDP]
+   Generated File[combined.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:31:28 PM On 10/11/2017

@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=NetP2_28 Pin=P2-27
+Change Net Name : Old Net Name=NetP2_28 New Net Name=NetP2_27
+Added Pin To Net: NetName=NetP2_31 Pin=P2-31
+Added Pin To Net: NetName=NetP2_31 Pin=P2-32
+Added Pin To Net: NetName=NetP2_31 Pin=R31-2
+Added Pin To Net: NetName=NetP2_31 Pin=R32-1
+Added Net: Name=NetP2_31
+Added Member To Class: ClassName=Power_Supply Member=Component MEJ1 MEJ2S1212SC

@@ -1,0 +1,7 @@
+Added Component: Designator=GaN2(GS66508B)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC20_1 Pin=GaN2-D
+Added Pin To Net: NetName=NetFB1_2 Pin=GaN2-G
+Added Pin To Net: NetName=GND_P1 Pin=GaN2-SS
+Added Pin To Net: NetName=NetGaN1_S Pin=GaN2-S
+Added Member To Class: ClassName=Power_Board Member=Component GaN2 GS66508B

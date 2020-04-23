@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Vin1 Pin=Jumper1-3
+Added Pin To Net: NetName=Vin2 Pin=Jumper1-3
+Added Member To Class: ClassName=Power_Board Member=Component Rsense1 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense2 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense3 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense4 Sense Resistor

@@ -1,0 +1,301 @@
+Removed Pin From Net: NetName=GND_S Pin=C18-2
+Removed Pin From Net: NetName=GND_S Pin=C19-1
+Removed Pin From Net: NetName=GND_S Pin=C48-2
+Removed Pin From Net: NetName=GND Pin=C60-1
+Removed Pin From Net: NetName=P5V Pin=C60-2
+Removed Pin From Net: NetName=GND Pin=C62-1
+Removed Pin From Net: NetName=P-5V Pin=C62-2
+Removed Pin From Net: NetName=GND_S Pin=C65-2
+Removed Pin From Net: NetName=GND_S Pin=C66-2
+Removed Pin From Net: NetName=NetDig_opto_L1_13 Pin=P1-7
+Removed Pin From Net: NetName=NetDig_opto_L1_13 Pin=P1-8
+Removed Pin From Net: NetName=NetDig_opto_L1_14 Pin=P1-9
+Removed Pin From Net: NetName=NetDig_opto_L1_14 Pin=P1-10
+Removed Pin From Net: NetName=S5V Pin=R1-2
+Removed Pin From Net: NetName=GND_S Pin=R3-1
+Removed Pin From Net: NetName=GND_S Pin=TP8-1
+Removed Pin From Net: NetName=GND_S Pin=U6-3
+Removed Pin From Net: NetName=DSP_5V Pin=U13-4
+Removed Pin From Net: NetName=NetC53_2 Pin=U13-8
+Removed Pin From Net: NetName=NetC53_1 Pin=U13-9
+Removed Pin From Net: NetName=DSPGND Pin=U13-10
+Removed Pin From Net: NetName=DSPGND Pin=U13-11
+Removed Pin From Net: NetName=DSPGND Pin=U13-12
+Removed Pin From Net: NetName=NetC58_1 Pin=U13-13
+Removed Pin From Net: NetName=NetC58_2 Pin=U13-14
+Removed Member From Class: ClassName=CUK_3Ph_Analog_Isolation Member=C62
+Removed Member From Class: ClassName=CUK_3Ph_Analog_Isolation Member=C65
+Removed Member From Class: ClassName=CUK_3Ph_Analog_Isolation Member=C66
+Removed Member From Class: ClassName=CUK_3Ph_sig_conditioner Member=D11
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=R1
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=R3
+Removed Member From Class: ClassName=CUK_3Ph_Analog_Isolation Member=R36
+Removed Member From Class: ClassName=CUK_3Ph_Analog_Isolation Member=TP25
+Added Component: Designator=C60(Capacitor 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470nF"; VariantName = "[No Variations]"
+Added Component: Designator=DAC1(TLV5630)
+Add component. Clean all parameters for all variants
+Added Component: Designator=opto1(HCNR200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=opto2(HCNR200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=opto3(HCNR200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=opto4(HCNR200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=opto5(HCNR200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Added Component: Designator=U9(DIP14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/stonline/products/literature/ds/2305/ts27l4.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Nov-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SO14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Aug-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U10(DIP14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/tl074.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Jun-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "16-Jan-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOIC14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/stonline/products/literature/ds/2305/ts27l4.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Nov-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SO14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Aug-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U12(DIP14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/tl074.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Jun-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "16-Jan-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U13(SOIC14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/stonline/products/literature/ds/2305/ts27l4.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Nov-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SO14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Aug-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U14(DIP14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/tl074.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Jun-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "16-Jan-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_S Pin=C60-1
+Added Pin To Net: NetName=DSPGND Pin=DAC1-1
+Added Pin To Net: NetName=NetDAC1_2 Pin=DAC1-2
+Added Pin To Net: NetName=NetDAC1_3 Pin=DAC1-3
+Added Pin To Net: NetName=NetDAC1_4 Pin=DAC1-4
+Added Pin To Net: NetName=NetDAC1_5 Pin=DAC1-5
+Added Pin To Net: NetName=NetDAC1_6 Pin=DAC1-6
+Added Pin To Net: NetName=NetDAC1_7 Pin=DAC1-7
+Added Pin To Net: NetName=NetDAC1_8 Pin=DAC1-8
+Added Pin To Net: NetName=NetDAC1_9 Pin=DAC1-9
+Added Pin To Net: NetName=DSPGND Pin=DAC1-10
+Added Pin To Net: NetName=DSP_5V Pin=DAC1-11
+Added Pin To Net: NetName=NetDAC1_13 Pin=DAC1-13
+Added Pin To Net: NetName=NetDAC1_14 Pin=DAC1-14
+Added Pin To Net: NetName=NetDAC1_15 Pin=DAC1-15
+Added Pin To Net: NetName=NetC68_1 Pin=DAC1-16
+Added Pin To Net: NetName=DSPGND Pin=DAC1-18
+Added Pin To Net: NetName=NetDAC1_19 Pin=DAC1-19
+Added Pin To Net: NetName=DSP_3V3 Pin=DAC1-20
+Added Pin To Net: NetName=NetC40_2 Pin=opto1-1
+Added Pin To Net: NetName=Netopto1_2 Pin=opto1-2
+Added Pin To Net: NetName=NetC40_1 Pin=opto1-3
+Added Pin To Net: NetName=GND Pin=opto1-4
+Added Pin To Net: NetName=DSPGND Pin=opto1-5
+Added Pin To Net: NetName=NetC38_1 Pin=opto1-6
+Added Pin To Net: NetName=NetC43_2 Pin=opto2-1
+Added Pin To Net: NetName=Netopto2_2 Pin=opto2-2
+Added Pin To Net: NetName=NetC43_1 Pin=opto2-3
+Added Pin To Net: NetName=GND_S Pin=opto2-4
+Added Pin To Net: NetName=DSPGND Pin=opto2-5
+Added Pin To Net: NetName=NetC44_1 Pin=opto2-6
+Added Pin To Net: NetName=NetC49_2 Pin=opto3-1
+Added Pin To Net: NetName=Netopto3_2 Pin=opto3-2
+Added Pin To Net: NetName=NetC49_1 Pin=opto3-3
+Added Pin To Net: NetName=GND_S Pin=opto3-4
+Added Pin To Net: NetName=DSPGND Pin=opto3-5
+Added Pin To Net: NetName=NetC50_1 Pin=opto3-6
+Added Pin To Net: NetName=NetC54_2 Pin=opto4-1
+Added Pin To Net: NetName=Netopto4_2 Pin=opto4-2
+Added Pin To Net: NetName=NetC54_1 Pin=opto4-3
+Added Pin To Net: NetName=GND_S Pin=opto4-4
+Added Pin To Net: NetName=DSPGND Pin=opto4-5
+Added Pin To Net: NetName=NetC53_1 Pin=opto4-6
+Added Pin To Net: NetName=NetC59_2 Pin=opto5-1
+Added Pin To Net: NetName=Netopto5_2 Pin=opto5-2
+Added Pin To Net: NetName=NetC59_1 Pin=opto5-3
+Added Pin To Net: NetName=GND Pin=opto5-4
+Added Pin To Net: NetName=DSPGND Pin=opto5-5
+Added Pin To Net: NetName=NetC58_1 Pin=opto5-6
+Added Pin To Net: NetName=NetDig_opto_L1_14 Pin=P1-7
+Added Pin To Net: NetName=NetDig_opto_L1_14 Pin=P1-8
+Added Pin To Net: NetName=NetDig_opto_L1_13 Pin=P1-9
+Added Pin To Net: NetName=NetDig_opto_L1_13 Pin=P1-10
+Added Pin To Net: NetName=NetDAC1_2 Pin=R1-1
+Added Pin To Net: NetName=DSP_3V3 Pin=R1-2
+Added Pin To Net: NetName=NetDAC1_19 Pin=R3-1
+Added Pin To Net: NetName=DSP_3V3 Pin=R3-2
+Added Pin To Net: NetName=NetD1_2 Pin=U9-1
+Added Pin To Net: NetName=NetD1_2 Pin=U9-2
+Added Pin To Net: NetName=NetC34_2 Pin=U9-3
+Added Pin To Net: NetName=DSP_5V Pin=U9-4
+Added Pin To Net: NetName=NetC35_2 Pin=U9-5
+Added Pin To Net: NetName=NetD2_2 Pin=U9-6
+Added Pin To Net: NetName=NetD2_2 Pin=U9-7
+Added Pin To Net: NetName=NetD3_2 Pin=U9-8
+Added Pin To Net: NetName=NetD3_2 Pin=U9-9
+Added Pin To Net: NetName=NetC36_2 Pin=U9-10
+Added Pin To Net: NetName=DSPGND Pin=U9-11
+Added Pin To Net: NetName=NetC37_2 Pin=U9-12
+Added Pin To Net: NetName=NetD4_2 Pin=U9-13
+Added Pin To Net: NetName=NetD4_2 Pin=U9-14
+Added Pin To Net: NetName=NetR18_1 Pin=U10-1
+Added Pin To Net: NetName=NetR18_1 Pin=U10-2
+Added Pin To Net: NetName=NetC41_1 Pin=U10-3
+Added Pin To Net: NetName=P5V Pin=U10-4
+Added Pin To Net: NetName=GND Pin=U10-5
+Added Pin To Net: NetName=NetC40_1 Pin=U10-6
+Added Pin To Net: NetName=NetC40_2 Pin=U10-7
+Added Pin To Net: NetName=NetC59_2 Pin=U10-8
+Added Pin To Net: NetName=NetC59_1 Pin=U10-9
+Added Pin To Net: NetName=GND Pin=U10-10
+Added Pin To Net: NetName=P-5V Pin=U10-11
+Added Pin To Net: NetName=NetC61_1 Pin=U10-12
+Added Pin To Net: NetName=NetR33_1 Pin=U10-13
+Added Pin To Net: NetName=NetR33_1 Pin=U10-14
+Added Pin To Net: NetName=NetC38_2 Pin=U11-1
+Added Pin To Net: NetName=NetC38_1 Pin=U11-2
+Added Pin To Net: NetName=DSPGND Pin=U11-3
+Added Pin To Net: NetName=DSP_5V Pin=U11-4
+Added Pin To Net: NetName=DSPGND Pin=U11-5
+Added Pin To Net: NetName=NetC44_1 Pin=U11-6
+Added Pin To Net: NetName=NetC44_2 Pin=U11-7
+Added Pin To Net: NetName=NetC50_2 Pin=U11-8
+Added Pin To Net: NetName=NetC50_1 Pin=U11-9
+Added Pin To Net: NetName=DSPGND Pin=U11-10
+Added Pin To Net: NetName=DSPGND Pin=U11-11
+Added Pin To Net: NetName=DSPGND Pin=U11-12
+Added Pin To Net: NetName=NetC58_1 Pin=U11-13
+Added Pin To Net: NetName=NetC58_2 Pin=U11-14
+Added Pin To Net: NetName=NetR21_1 Pin=U12-1
+Added Pin To Net: NetName=NetR21_1 Pin=U12-2
+Added Pin To Net: NetName=NetC47_1 Pin=U12-3
+Added Pin To Net: NetName=S5V Pin=U12-4
+Added Pin To Net: NetName=GND_S Pin=U12-5
+Added Pin To Net: NetName=NetC43_1 Pin=U12-6
+Added Pin To Net: NetName=NetC43_2 Pin=U12-7
+Added Pin To Net: NetName=NetR23_1 Pin=U12-8
+Added Pin To Net: NetName=NetR23_1 Pin=U12-9
+Added Pin To Net: NetName=NetC51_1 Pin=U12-10
+Added Pin To Net: NetName=GND_S Pin=U12-12
+Added Pin To Net: NetName=NetC49_1 Pin=U12-13
+Added Pin To Net: NetName=NetC49_2 Pin=U12-14
+Added Pin To Net: NetName=DSP_5V Pin=U13-4
+Added Pin To Net: NetName=DSPGND Pin=U13-11
+Added Pin To Net: NetName=DSPGND Pin=U13-12
+Added Pin To Net: NetName=NetC53_1 Pin=U13-13
+Added Pin To Net: NetName=NetC53_2 Pin=U13-14
+Added Pin To Net: NetName=S5V Pin=U14-4
+Added Pin To Net: NetName=GND_S Pin=U14-5
+Added Pin To Net: NetName=NetC54_1 Pin=U14-6
+Added Pin To Net: NetName=NetC54_2 Pin=U14-7
+Added Pin To Net: NetName=NetC52_2 Pin=U14-8
+Added Pin To Net: NetName=NetC52_1 Pin=U14-9
+Added Pin To Net: NetName=NetC57_1 Pin=U14-10
+Added Pin To Net: NetName=1.65_REFOPAMP Pin=U14-12
+Added Pin To Net: NetName=NetR35_2 Pin=U14-13
+Added Pin To Net: NetName=NetR35_2 Pin=U14-14
+Added Pin To Net: NetName=S-5V Pin=C18-2
+Added Pin To Net: NetName=S-5V Pin=C19-1
+Added Pin To Net: NetName=S-5V Pin=C48-2
+Added Pin To Net: NetName=S-5V Pin=C60-2
+Added Pin To Net: NetName=S-5V Pin=TP8-1
+Added Pin To Net: NetName=S-5V Pin=U6-3
+Added Pin To Net: NetName=S-5V Pin=U12-11
+Added Pin To Net: NetName=S-5V Pin=U14-11
+Added Net: Name=S-5V
+Added Member To Class: ClassName=DAC Member=Component DAC1 TLV5630
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component opto1 HCNR200.
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component opto2 HCNR200.
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component opto3 HCNR200.
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component opto4 HCNR200.
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component opto5 HCNR200.
+Added Member To Class: ClassName=DAC Member=Component R1 Res1
+Added Member To Class: ClassName=DAC Member=Component R3 Res1
+Added Member To Class: ClassName=CUK_3Ph_sig_conditioner Member=Component U9 TS27L4IN
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component U10 TL074CNSR
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component U11 TLC2274ACD
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component U12 TL074CN
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component U14 TL074CN

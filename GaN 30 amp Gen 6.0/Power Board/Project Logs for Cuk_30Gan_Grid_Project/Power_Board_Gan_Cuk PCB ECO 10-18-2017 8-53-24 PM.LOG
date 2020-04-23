@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Protection_logic Member=Gnd
+Added Component: Designator=Heat Sink1(Heat Sink)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Power_Board Member=Component Heat Sink1 Heat sink
+Added Member To Class: ClassName=Power_Board Member=Component  Control Board

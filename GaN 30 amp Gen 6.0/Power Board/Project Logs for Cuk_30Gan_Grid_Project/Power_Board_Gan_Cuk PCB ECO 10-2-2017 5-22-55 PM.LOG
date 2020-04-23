@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC19_1 Pin=C19-1
+Removed Pin From Net: NetName=GND Pin=C19-2
+Change Component Footprint: Designator=C19 Old Footprint=C0805 New Footprint=Cap_SMD
+Change Component Footprint: Designator=C22 Old Footprint=C0805 New Footprint=Cap_SMD
+Change Component Comment : Designator=C19 Old Comment=Cap Pol3 New Comment=100nF
+Change Component Comment : Designator=C22 Old Comment=Cap Pol3 New Comment=100nF
+Change Component Designator: OldDesignator=Grid in NewDesignator=Aux2
+Change component parameters: Designator = "C19"; Footprint = "Cap_SMD"; UniqueID = "\MPUOSYDT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C22"; Footprint = "Cap_SMD"; UniqueID = "\JNUUDBDF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=C19-2
+Change Net Name : Old Net Name=NetC19_1 New Net Name=NetC19_2

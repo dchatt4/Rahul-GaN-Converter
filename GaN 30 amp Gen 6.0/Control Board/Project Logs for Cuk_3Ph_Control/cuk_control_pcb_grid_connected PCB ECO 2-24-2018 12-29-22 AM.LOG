@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetDigital ISO1_12 Pin=P1-23
+Removed Pin From Net: NetName=NetDigital ISO1_12 Pin=P1-24
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP7
+Added Pin To Net: NetName=NetDigital ISO1_12 Pin=P1-15
+Added Pin To Net: NetName=NetDigital ISO1_12 Pin=P1-16
+Added Pin To Net: NetName=NetC20_2 Pin=P1-23
+Added Pin To Net: NetName=NetC20_2 Pin=P1-24
+Change Net Name : Old Net Name=NetC20_2 New Net Name=-12

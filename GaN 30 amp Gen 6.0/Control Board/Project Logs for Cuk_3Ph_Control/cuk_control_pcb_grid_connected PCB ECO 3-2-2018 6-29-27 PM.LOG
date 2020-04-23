@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=DSP_5V Pin=Rx1-2
+Removed Pin From Net: NetName=DSP_5V Pin=Rx3-2
+Removed Pin From Net: NetName=DSP_5V Pin=Rx5-2
+Added Pin To Net: NetName=NetRx1_2 Pin=Rx1-2
+Added Pin To Net: NetName=NetRx1_2 Pin=U13-4
+Added Net: Name=NetRx1_2
+Added Pin To Net: NetName=NetRx3_2 Pin=Rx3-2
+Added Pin To Net: NetName=NetRx3_2 Pin=U13-4
+Added Net: Name=NetRx3_2
+Added Pin To Net: NetName=NetRx5_2 Pin=Rx5-2
+Added Pin To Net: NetName=NetRx5_2 Pin=U13-4
+Added Net: Name=NetRx5_2

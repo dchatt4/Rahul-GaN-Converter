@@ -1,0 +1,41 @@
+Removed Member From Class: ClassName=Protection_logic Member=ZD1
+Added Component: Designator=Rdis1(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis2(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis3(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis4(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis5(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis6(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis7(J1-0603)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rdis8(J1-0603)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetCon1_4 Pin=Rdis1-1
+Added Pin To Net: NetName=GND_P1 Pin=Rdis1-2
+Added Pin To Net: NetName=NetCon2_4 Pin=Rdis2-1
+Added Pin To Net: NetName=GND_P1 Pin=Rdis2-2
+Added Pin To Net: NetName=NetCon3_4 Pin=Rdis3-1
+Added Pin To Net: NetName=GND_S1 Pin=Rdis3-2
+Added Pin To Net: NetName=NetCon4_4 Pin=Rdis4-1
+Added Pin To Net: NetName=GND_S1 Pin=Rdis4-2
+Added Pin To Net: NetName=NetCon5_4 Pin=Rdis5-1
+Added Pin To Net: NetName=GND_P2 Pin=Rdis5-2
+Added Pin To Net: NetName=NetCon6_4 Pin=Rdis6-1
+Added Pin To Net: NetName=GND_P2 Pin=Rdis6-2
+Added Pin To Net: NetName=NetCon7_4 Pin=Rdis7-1
+Added Pin To Net: NetName=GND_S2 Pin=Rdis7-2
+Added Pin To Net: NetName=NetCon8_4 Pin=Rdis8-1
+Added Pin To Net: NetName=GND_S2 Pin=Rdis8-2
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis1 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis2 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis3 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis4 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis5 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis6 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis7 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component Rdis8 res_smd

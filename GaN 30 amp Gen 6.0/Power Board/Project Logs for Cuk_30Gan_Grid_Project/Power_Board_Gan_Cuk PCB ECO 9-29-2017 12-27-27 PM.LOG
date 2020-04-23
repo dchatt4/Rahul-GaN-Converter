@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=P? NewDesignator=P4
+Added Member To Class: ClassName=Power_Board Member=Component C5 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C6 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C7 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component P4 Signals to Input Board

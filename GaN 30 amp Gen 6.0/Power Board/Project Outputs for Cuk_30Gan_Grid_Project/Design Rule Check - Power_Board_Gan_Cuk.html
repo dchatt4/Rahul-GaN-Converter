@@ -1,0 +1,495 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3/9/2018</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:42:00 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:16</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc" class="file"><acronym title="C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc">C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">37</td></tr>
+</table>
+</td>
+</table><a name="ID5VL0MKTFXIV4KTIZDO1WIOVPYHPZ0LQNPFIYBTPRVTOK4IRS2TFD"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1GJO0VXK321WCOTANSIPBHEIGGXIQZBH2TBEYWFRZHIVZKG5C0JF">Clearance Constraint (Gap=10mil) (InNet('GND_SS1')),(InComponentClass('Power_Board'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDLMEONVS4HANDOWQ4BQDWPSCPBYA10KS2WDCUBJI4VRLEQPE5OG">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVVM1T1MLKMJPI3UHIQXFIZR2HEOFEOJYTTVYERLZOFCFSO2L4LGM">Clearance Constraint (Gap=10mil) (InNet('NetC48_2')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1WSYMJV0DR2IE5BNNURXHATGYEEAGMQXLHFG20FZ0HHLJD1L1C2G">Clearance Constraint (Gap=10mil) (InComponentClass('Power_Board')),(InComponentClass('Power_Board'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1TPB1G53OUYYEWYVUW4JHUOZ1FVDRGMHIG3VLUKGSE43GAOAW4YM">Clearance Constraint (Gap=10mil) (InNet('NetC48_1')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1QBZEH1JOONPLEZV3GPMZWTLXEACCUUFWEYEUXHZDSB3NPU2MCIB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQCZIUYKVRDZ2K3YP45QA3NZUEHUFLACPPUOQ1EFGMLL5QUAPGSWO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLDFKQU2RZQ0KEORITOWP23FECDA153NVHZP1P3BFCFU3KUVVYP4C">Un-Connected Pin Constraint ( (All) )</a></td>
+<td class="column2">25</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDING12F0AQ0BRDRSKV0UBWDV5BD1Y54ERKJKYZQL3GKWVQOLF0K4N">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPQGG5EP2HUWVPLKLWLOFOAVJXKC2EF34RFGI11INYYVTITGIKCJO">Width Constraint (Min=10mil) (Max=200mil) (Preferred=50mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWICC0RCUGRGUBN40ARYN11RPZMR2CISPVWVKLBKUMEVOVZLJZIJJ">Routing Layers(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUYEY22UEN4SZJXCBVAJPIIIFKLRQ1RZFAQ4KFINNE2ON50ZAW02C">Routing Via (MinHoleWidth=12mil) (MaxHoleWidth=28mil) (PreferredHoleWidth=28mil) (MinWidth=15mil) (MaxWidth=100mil) (PreferedWidth=50mil) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHUG5QUVQSVJZKMQNNKGAV0YFVJXI0LTHQFSKZOBYLCTVXXPLMJGE">Differential Pairs Uncoupled Length using the Gap Constraints (Min=10mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=15mil) (Max=15mil) (Prefered=15mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDD4KKTSAHT2QQBIKMPQIVO2VCZGY12JISCBXYREO2CC1A0GOAZ1KE">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM0TC5IKAXTG1FA03ZIQBEZPV4JGE15ZEMJ3FS0HNNHMC4MCYXRUN">Assembly Testpoint Style (Under Component=Yes) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKSLUCXZTPO5CBHD2UHAVCOJTRJBZ3YFKHGPR0CL51OUEPJAX2WFL">Assembly Testpoint Usage (Valid =One Required, Allow multiple per net=No) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPTLA4NQLGFT23ZSGDORAII2RGRSHMUVCT4F3BOMMVZJJVHGY0NM">Hole Size Constraint (Min=1mil) (Max=200mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY1UMKE25EQLOHXWKJOO2NIC31MBJ1NZZZMMHC2MN5VFHMBBF1FJI">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOEVWRHEXRGU1ERSFLS4NPS54O24TFESXJFC23L2FOVZDORVHABD">Hole To Hole Clearance (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNKMDDKJU2W42EGDMOIX4KBT2QGKVPDCM2PX3Z3KF5U21I4PYBGWB">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3XRU2JMAN2D1BPA5PQJ4BQIE3EKCZAV23QHHTJKCWW55QSC10ZOM">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDB4GAXU2VGWTMLRWOA1VF3EOVFDBLIR12FHYWVQCILCK5ECABPU2E">Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = Infinite ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX453HAOCYHEIFVZAHNOEPTPTZOHRK3KGSGGQV2KQQZYRQZLLCLHP">Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = Infinite ) ((HasFootprint('Control Board'))),((InComponentClass('All Components'))) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHFD3GGEQKRZMFGZW4MXBQZP3ZKVN0EFS3G20HUJE1ZRE2XAQKQOI">Silk primitive without silk layer</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">37</td>
+</tr>
+</table><br><a name="IDDLMEONVS4HANDOWQ4BQDWPSCPBYA10KS2WDCUBJI4VRLEQPE5OG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16568.533mil|Location2.X=16579.783mil|Location1.Y=24846.696mil|Location2.Y=24857.946mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16568.533mil|Location2.X=16579.783mil|Location1.Y=24846.696mil|Location2.Y=24857.946mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16531.205mil,24840.205mil)(16592.858mil,24840.205mil) on Top Layer And Pad 7-2(16592.858mil,24865.795mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16568.533mil|Location2.X=16579.783mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16568.533mil|Location2.X=16579.783mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16531.205mil,24840.205mil)(16592.858mil,24840.205mil) on Top Layer And Pad 7-4(16592.858mil,24814.614mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24872.286mil|Location2.Y=24883.536mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24872.286mil|Location2.Y=24883.536mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16825.142mil,24865.795mil)(16864.205mil,24865.795mil) on Top Layer And Pad 7-8(16825.142mil,24891.386mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24873.645mil|Location2.Y=24884.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24873.645mil|Location2.Y=24884.895mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16825.142mil,24891.386mil)(16970.984mil,24891.386mil) on Top Layer And Pad 7-7(16825.142mil,24865.795mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16832.989mil|Location2.X=16844.239mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16832.989mil|Location2.X=16844.239mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16838.614mil,24840.205mil)(16864.205mil,24865.795mil) on Top Layer And Pad 7-5(16825.142mil,24814.614mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16819.517mil|Location2.X=16830.767mil|Location1.Y=24822.464mil|Location2.Y=24833.714mil|Absolute=True">Clearance Constraint: (9.232mil &lt; 10mil) Between Track (16825.142mil,24840.205mil)(16838.614mil,24840.205mil) on Top Layer And Pad 7-5(16825.142mil,24814.614mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDQCZIUYKVRDZ2K3YP45QA3NZUEHUFLACPPUOQ1EFGMLL5QUAPGSWO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15212.26mil|Location2.X=15263.567mil|Location1.Y=24018.992mil|Location2.Y=24538.173mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15212.26mil|Location2.X=15263.567mil|Location1.Y=24018.992mil|Location2.Y=24538.173mil|Absolute=True">Un-Routed Net Constraint: Net NetFB1_2 Between Pad GaN2-G(15237.913mil,24044.646mil) on Top Layer And Pad GaN1-G(15237.913mil,24512.52mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15112.26mil|Location2.X=15163.567mil|Location1.Y=27683.992mil|Location2.Y=28178.478mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15112.26mil|Location2.X=15163.567mil|Location1.Y=27683.992mil|Location2.Y=28178.478mil|Absolute=True">Un-Routed Net Constraint: Net NetFB3_2 Between Pad FB4-2(15136.351mil,28156.762mil) on Top Layer And Pad GaN4-G(15137.913mil,27709.646mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18350mil|Location2.X=19950mil|Location1.Y=23750mil|Location2.Y=26010mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18350mil|Location2.X=19950mil|Location1.Y=23750mil|Location2.Y=26010mil|Absolute=True">Un-Routed Net Constraint: Net DSP_5V Between Track (18450mil,23750mil)(18450mil,23850mil) on HF Layer And Track (19850mil,25910mil)(19850mil,26010mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21457.951mil|Location2.X=21533.807mil|Location1.Y=24296.193mil|Location2.Y=24780.807mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21457.951mil|Location2.X=21533.807mil|Location1.Y=24296.193mil|Location2.Y=24780.807mil|Absolute=True">Un-Routed Net Constraint: Net NetFB5_2 Between Pad FB6-2(21485.879mil,24752.879mil) on Top Layer And Pad FB5-2(21505.879mil,24324.121mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22012.951mil|Location2.X=22069.807mil|Location1.Y=27936.193mil|Location2.Y=28420.807mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22012.951mil|Location2.X=22069.807mil|Location1.Y=27936.193mil|Location2.Y=28420.807mil|Absolute=True">Un-Routed Net Constraint: Net NetFB7_2 Between Pad FB8-2(22040.879mil,27964.121mil) on Top Layer And Pad FB7-2(22041.879mil,28392.879mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLDFKQU2RZQ0KEORITOWP23FECDA153NVHZP1P3BFCFU3KUVVYP4C"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Connected Pin Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17876.815mil|Location2.X=17925.185mil|Location1.Y=27388.059mil|Location2.Y=27436.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17876.815mil|Location2.X=17925.185mil|Location1.Y=27388.059mil|Location2.Y=27436.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD11-3(17901mil,27412.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16626.571mil|Location2.X=16674.941mil|Location1.Y=24963.815mil|Location2.Y=25012.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16626.571mil|Location2.X=16674.941mil|Location1.Y=24963.815mil|Location2.Y=25012.185mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD12-3(16650.756mil,24988mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18831.413mil|Location2.X=18879.783mil|Location1.Y=25115.697mil|Location2.Y=25164.067mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18831.413mil|Location2.X=18879.783mil|Location1.Y=25115.697mil|Location2.Y=25164.067mil|Absolute=True">Un-Connected Pin Constraint: Pad Not1-1(18855.598mil,25139.882mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19248.272mil|Location2.X=19318.295mil|Location1.Y=24677.988mil|Location2.Y=24748.012mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19248.272mil|Location2.X=19318.295mil|Location1.Y=24677.988mil|Location2.Y=24748.012mil|Absolute=True">Un-Connected Pin Constraint: Pad Latch1-13(19283.283mil,24713mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17144.815mil|Location2.X=17193.185mil|Location1.Y=24992.059mil|Location2.Y=25040.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17144.815mil|Location2.X=17193.185mil|Location1.Y=24992.059mil|Location2.Y=25040.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD14-3(17169mil,25016.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17017.303mil|Location2.X=17095.201mil|Location1.Y=24482.051mil|Location2.Y=24559.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17017.303mil|Location2.X=17095.201mil|Location1.Y=24482.051mil|Location2.Y=24559.949mil|Absolute=True">Un-Connected Pin Constraint: Pad 8-7(17056.252mil,24521mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17017.303mil|Location2.X=17095.201mil|Location1.Y=24532.051mil|Location2.Y=24609.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17017.303mil|Location2.X=17095.201mil|Location1.Y=24532.051mil|Location2.Y=24609.949mil|Absolute=True">Un-Connected Pin Constraint: Pad 8-8(17056.252mil,24571mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16798.799mil|Location2.X=16876.697mil|Location1.Y=24432.051mil|Location2.Y=24509.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16798.799mil|Location2.X=16876.697mil|Location1.Y=24432.051mil|Location2.Y=24509.949mil|Absolute=True">Un-Connected Pin Constraint: Pad 8-3(16837.748mil,24471mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16798.799mil|Location2.X=16876.697mil|Location1.Y=24532.051mil|Location2.Y=24609.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16798.799mil|Location2.X=16876.697mil|Location1.Y=24532.051mil|Location2.Y=24609.949mil|Absolute=True">Un-Connected Pin Constraint: Pad 8-1(16837.748mil,24571mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18522.059mil|Location2.X=18570.429mil|Location1.Y=24440.815mil|Location2.Y=24489.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18522.059mil|Location2.X=18570.429mil|Location1.Y=24440.815mil|Location2.Y=24489.185mil|Absolute=True">Un-Connected Pin Constraint: Pad ov1z-3(18546.244mil,24465mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17867.815mil|Location2.X=17916.185mil|Location1.Y=25100.059mil|Location2.Y=25148.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17867.815mil|Location2.X=17916.185mil|Location1.Y=25100.059mil|Location2.Y=25148.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZDoc--3(17892mil,25124.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18267.815mil|Location2.X=18316.185mil|Location1.Y=25150.059mil|Location2.Y=25198.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18267.815mil|Location2.X=18316.185mil|Location1.Y=25150.059mil|Location2.Y=25198.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZDoc1-3(18292mil,25174.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16253.059mil|Location2.X=16301.429mil|Location1.Y=24604.815mil|Location2.Y=24653.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16253.059mil|Location2.X=16301.429mil|Location1.Y=24604.815mil|Location2.Y=24653.185mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD13-3(16277.244mil,24629mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18891.256mil|Location2.X=18957.342mil|Location1.Y=27887.941mil|Location2.Y=27954.028mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18891.256mil|Location2.X=18957.342mil|Location1.Y=27887.941mil|Location2.Y=27954.028mil|Absolute=True">Un-Connected Pin Constraint: Pad Max1-7(18924.299mil,27920.984mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18617.815mil|Location2.X=18666.185mil|Location1.Y=28168.059mil|Location2.Y=28216.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18617.815mil|Location2.X=18666.185mil|Location1.Y=28168.059mil|Location2.Y=28216.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD10-3(18642mil,28192.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21999.815mil|Location2.X=22048.185mil|Location1.Y=28483.571mil|Location2.Y=28531.941mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21999.815mil|Location2.X=22048.185mil|Location1.Y=28483.571mil|Location2.Y=28531.941mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD8-3(22024mil,28507.756mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21956.815mil|Location2.X=22005.185mil|Location1.Y=27756.571mil|Location2.Y=27804.941mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21956.815mil|Location2.X=22005.185mil|Location1.Y=27756.571mil|Location2.Y=27804.941mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD7-3(21981mil,27780.756mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21385.571mil|Location2.X=21433.941mil|Location1.Y=24867.815mil|Location2.Y=24916.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21385.571mil|Location2.X=21433.941mil|Location1.Y=24867.815mil|Location2.Y=24916.185mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD5-3(21409.756mil,24892mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21422.815mil|Location2.X=21471.185mil|Location1.Y=24082.571mil|Location2.Y=24130.941mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21422.815mil|Location2.X=21471.185mil|Location1.Y=24082.571mil|Location2.Y=24130.941mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD6-3(21447mil,24106.756mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15337.222mil|Location2.X=15385.592mil|Location1.Y=27666.222mil|Location2.Y=27714.592mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15337.222mil|Location2.X=15385.592mil|Location1.Y=27666.222mil|Location2.Y=27714.592mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD4-3(15361.407mil,27690.407mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15284.815mil|Location2.X=15333.185mil|Location1.Y=28381.059mil|Location2.Y=28429.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15284.815mil|Location2.X=15333.185mil|Location1.Y=28381.059mil|Location2.Y=28429.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD3-3(15309mil,28405.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15395.815mil|Location2.X=15444.185mil|Location1.Y=23938.059mil|Location2.Y=23986.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15395.815mil|Location2.X=15444.185mil|Location1.Y=23938.059mil|Location2.Y=23986.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD2-3(15420mil,23962.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15400.815mil|Location2.X=15449.185mil|Location1.Y=24738.059mil|Location2.Y=24786.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15400.815mil|Location2.X=15449.185mil|Location1.Y=24738.059mil|Location2.Y=24786.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD1-3(15425mil,24762.244mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17759.705mil|Location2.X=17829.728mil|Location1.Y=24064.988mil|Location2.Y=24135.012mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17759.705mil|Location2.X=17829.728mil|Location1.Y=24064.988mil|Location2.Y=24135.012mil|Absolute=True">Un-Connected Pin Constraint: Pad Latch2-13(17794.716mil,24100mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17887.004mil|Location2.X=17935.374mil|Location1.Y=27891.059mil|Location2.Y=27939.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17887.004mil|Location2.X=17935.374mil|Location1.Y=27891.059mil|Location2.Y=27939.429mil|Absolute=True">Un-Connected Pin Constraint: Pad ZD9-3(17911.189mil,27915.244mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDUYEY22UEN4SZJXCBVAJPIIIFKLRQ1RZFAQ4KFINNE2ON50ZAW02C"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Routing Via (MinHoleWidth=12mil) (MaxHoleWidth=28mil) (PreferredHoleWidth=28mil) (MinWidth=15mil) (MaxWidth=100mil) (PreferedWidth=50mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13978.5mil|Location2.X=14087.5mil|Location1.Y=26707.5mil|Location2.Y=26816.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13978.5mil|Location2.X=14087.5mil|Location1.Y=26707.5mil|Location2.Y=26816.5mil|Absolute=True">Routing Via Style: Via (14033mil,26762mil) from Top Layer to Bottom Layer Actual Size : 100mil Actual Hole Size : 50mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

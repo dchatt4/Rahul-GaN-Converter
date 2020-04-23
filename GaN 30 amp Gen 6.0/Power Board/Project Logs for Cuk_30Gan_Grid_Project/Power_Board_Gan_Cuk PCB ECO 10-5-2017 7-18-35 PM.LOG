@@ -1,0 +1,25 @@
+Change Component Footprint: Designator=P3 Old Footprint=HDR2X6 New Footprint=HDR2X5
+Change Component Comment : Designator=P3 Old Comment=Signals to Output Board New Comment=Header 5X2
+Added Pin To Net: NetName=GND Pin=P1-25
+Added Pin To Net: NetName=GND Pin=P1-26
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=NetC19_2 Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=NetP1_3 Pin=P3-6
+Added Pin To Net: NetName=GND Pin=P3-7
+Added Pin To Net: NetName=GND Pin=P3-8
+Added Pin To Net: NetName=GND Pin=P3-9
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=NetC19_2 Pin=P4-2
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=GND Pin=P4-4
+Added Pin To Net: NetName=GND Pin=P4-5
+Added Pin To Net: NetName=NetP1_1 Pin=P4-6
+Added Pin To Net: NetName=GND Pin=P4-7
+Added Pin To Net: NetName=GND Pin=P4-8
+Added Pin To Net: NetName=NetP1_27 Pin=P1-27
+Added Pin To Net: NetName=NetP1_27 Pin=P1-28
+Added Pin To Net: NetName=NetP1_27 Pin=P3-10
+Added Net: Name=NetP1_27

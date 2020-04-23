@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=L2 Old Footprint=Inductor_small New Footprint=Inductor_small_mirror
+Change Component Footprint: Designator=L1 Old Footprint=Inductor_small_mirror New Footprint=Inductor_small

@@ -1,0 +1,50 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C55
+Change Component Designator: OldDesignator=C? NewDesignator=C56
+Change Component Designator: OldDesignator=C? NewDesignator=C57
+Change Component Designator: OldDesignator=C? NewDesignator=C58
+Change Component Designator: OldDesignator=Current_Sense? NewDesignator=Current_Sense3
+Change Component Designator: OldDesignator=Current_Sense? NewDesignator=Current_Sense4
+Change Component Designator: OldDesignator=GaN? NewDesignator=GaN9
+Change Component Designator: OldDesignator=GaN? NewDesignator=GaN10
+Change Component Designator: OldDesignator=R? NewDesignator=R31
+Change Component Designator: OldDesignator=R? NewDesignator=R32
+Change Component Designator: OldDesignator=T? NewDesignator=T1
+Change Component Designator: OldDesignator=T? NewDesignator=T2
+Change Component Designator: OldDesignator=TP? NewDesignator=TP34
+Change Component Designator: OldDesignator=TP? NewDesignator=TP35
+Change Component Designator: OldDesignator=TP? NewDesignator=TP36
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC56_1
+Change Net Name : Old Net Name=NetCurrent_Sense?_3 New Net Name=NetCurrent_Sense3_3
+Change Net Name : Old Net Name=NetCurrent_Sense?_7 New Net Name=NetCurrent_Sense3_7
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR31_2
+Added Pin To Net: NetName=NetC58_1 Pin=C58-1
+Added Pin To Net: NetName=NetC58_1 Pin=Current_Sense4-6
+Added Net: Name=NetC58_1
+Added Pin To Net: NetName=NetCurrent_Sense4_3 Pin=Current_Sense4-3
+Added Pin To Net: NetName=NetCurrent_Sense4_3 Pin=Current_Sense4-4
+Added Pin To Net: NetName=NetCurrent_Sense4_3 Pin=D3-2
+Added Pin To Net: NetName=NetCurrent_Sense4_3 Pin=L2-1
+Added Net: Name=NetCurrent_Sense4_3
+Added Pin To Net: NetName=NetCurrent_Sense4_7 Pin=Current_Sense4-7
+Added Pin To Net: NetName=NetCurrent_Sense4_7 Pin=TP36-1
+Added Net: Name=NetCurrent_Sense4_7
+Added Member To Class: ClassName=Power_Board Member=Component C7 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C8 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C11 Output_cap
+Added Member To Class: ClassName=Power_Board Member=Component C55 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C56 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C57 100nF
+Added Member To Class: ClassName=Power_Board Member=Component C58 100nF
+Added Member To Class: ClassName=Power_Board Member=Component Current_Sense3 ACS712-05
+Added Member To Class: ClassName=Power_Board Member=Component GaN9 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component R32 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component T1 Transformer
+Added Member To Class: ClassName=Power_Board Member=Component TP35 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP36 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component U1 DC Input

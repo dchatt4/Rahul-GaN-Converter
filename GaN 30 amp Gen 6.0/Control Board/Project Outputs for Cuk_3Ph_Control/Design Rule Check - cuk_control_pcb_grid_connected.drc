@@ -1,0 +1,66 @@
+Protel Design System Design Rule Check
+PCB File : D:\alteum projects\GaN 30 amp Gen 6.0\Control Board\cuk_control_pcb_grid_connected.PcbDoc
+Date     : 3/9/2018
+Time     : 11:58:39 AM
+
+Processing Rule : Clearance Constraint (Gap=1mil) ((OnLayer('Top Layer'))),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=40mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room DAC (Bounding Region = (12783mil, 453mil, 16528mil, 4642mil) (Disabled)(InComponentClass('DAC'))
+Rule Violations :0
+
+Processing Rule : Room CUK_3Ph_sig_conditioner (Bounding Region = (11558mil, 8253mil, 13558mil, 9253mil) (Disabled)(InComponentClass('CUK_3Ph_sig_conditioner'))
+Rule Violations :0
+
+Processing Rule : Room CUK_3Ph_Power_Supplys (Bounding Region = (8895mil, 8306mil, 10895mil, 9306mil) (Disabled)(InComponentClass('CUK_3Ph_Power_Supplys'))
+Rule Violations :0
+
+Processing Rule : Room CUK_3Ph_Analog_Isolation (Bounding Region = (9337mil, 9474mil, 11337mil, 10474mil) (Disabled)(InComponentClass('CUK_3Ph_Analog_Isolation'))
+Rule Violations :0
+
+Processing Rule : Room CUK_3Ph_dig_iso_interface (Bounding Region = (5874mil, 8200mil, 7874mil, 9200mil) (Disabled)(InComponentClass('CUK_3Ph_dig_iso_interface'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02

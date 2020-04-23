@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC71_1 Pin=U3-1
+Removed Pin From Net: NetName=NetC71_2 Pin=U3-2
+Removed Pin From Net: NetName=NetC80_1 Pin=U3-3
+Removed Pin From Net: NetName=NetC81_1 Pin=U3-5
+Removed Pin From Net: NetName=NetC75_2 Pin=U3-6
+Removed Pin From Net: NetName=NetC75_1 Pin=U3-7
+Change Component Designator: OldDesignator=CS2 NewDesignator=Current_Sense2
+Change Component Designator: OldDesignator=GD 4 NewDesignator=Gate_Driver4
+Added Pin To Net: NetName=NetC80_1 Pin=U3-5
+Added Pin To Net: NetName=NetC71_2 Pin=U3-6
+Added Pin To Net: NetName=NetC71_1 Pin=U3-7
+Added Pin To Net: NetName=NetC81_1 Pin=U3-12
+Added Pin To Net: NetName=NetC75_2 Pin=U3-13
+Added Pin To Net: NetName=NetC75_1 Pin=U3-14
+Added Member To Class: ClassName=Power_Board Member=Component Current_Sense2 ACS712-05

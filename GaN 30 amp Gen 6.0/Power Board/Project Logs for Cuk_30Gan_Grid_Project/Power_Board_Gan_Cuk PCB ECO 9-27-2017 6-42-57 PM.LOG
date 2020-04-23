@@ -1,0 +1,56 @@
+Added Component: Designator=GaN1(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN2(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN3(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN4(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN5(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN6(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN7(GS66508B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GaN8(GS66508B)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC47_1 Pin=GaN1-D
+Added Pin To Net: NetName=NetDZ1_1 Pin=GaN1-G
+Added Pin To Net: NetName=GND Pin=GaN1-SS
+Added Pin To Net: NetName=GND Pin=GaN1-S
+Added Pin To Net: NetName=NetC47_1 Pin=GaN2-D
+Added Pin To Net: NetName=NetDZ1_1 Pin=GaN2-G
+Added Pin To Net: NetName=GND Pin=GaN2-SS
+Added Pin To Net: NetName=GND Pin=GaN2-S
+Added Pin To Net: NetName=NetC48_2 Pin=GaN3-D
+Added Pin To Net: NetName=NetDZ2_1 Pin=GaN3-G
+Added Pin To Net: NetName=GND_SS1 Pin=GaN3-SS
+Added Pin To Net: NetName=GND_SS1 Pin=GaN3-S
+Added Pin To Net: NetName=NetC48_2 Pin=GaN4-D
+Added Pin To Net: NetName=NetDZ2_1 Pin=GaN4-G
+Added Pin To Net: NetName=GND_SS1 Pin=GaN4-SS
+Added Pin To Net: NetName=GND_SS1 Pin=GaN4-S
+Added Pin To Net: NetName=NetC52_2 Pin=GaN5-D
+Added Pin To Net: NetName=NetDZ4_1 Pin=GaN5-G
+Added Pin To Net: NetName=GND_SS2 Pin=GaN5-SS
+Added Pin To Net: NetName=GND_SS2 Pin=GaN5-S
+Added Pin To Net: NetName=NetC52_2 Pin=GaN6-D
+Added Pin To Net: NetName=NetDZ4_1 Pin=GaN6-G
+Added Pin To Net: NetName=GND_SS2 Pin=GaN6-SS
+Added Pin To Net: NetName=GND_SS2 Pin=GaN6-S
+Added Pin To Net: NetName=NetC51_1 Pin=GaN7-D
+Added Pin To Net: NetName=NetDZ3_1 Pin=GaN7-G
+Added Pin To Net: NetName=GND Pin=GaN7-SS
+Added Pin To Net: NetName=GND Pin=GaN7-S
+Added Pin To Net: NetName=NetC51_1 Pin=GaN8-D
+Added Pin To Net: NetName=NetDZ3_1 Pin=GaN8-G
+Added Pin To Net: NetName=GND Pin=GaN8-SS
+Added Pin To Net: NetName=GND Pin=GaN8-S
+Added Member To Class: ClassName=Power_Board Member=Component GaN1 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN2 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN3 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN4 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN5 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN6 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN7 GS66508B
+Added Member To Class: ClassName=Power_Board Member=Component GaN8 GS66508B

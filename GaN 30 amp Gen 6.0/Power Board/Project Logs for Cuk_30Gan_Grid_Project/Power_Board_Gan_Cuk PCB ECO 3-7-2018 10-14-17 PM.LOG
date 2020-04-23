@@ -1,0 +1,6 @@
+Added Component: Designator=Rdev2(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMax2_1 Pin=Rdev2-1
+Added Pin To Net: NetName=GND Pin=Rdev2-2
+Added Member To Class: ClassName=Protection_logic Member=Component Rdev2 res_smd

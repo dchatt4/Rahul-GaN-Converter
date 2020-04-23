@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=TP27 NewDesignator=E
+Change Component Designator: OldDesignator=TP28 NewDesignator=D
+Change Component Designator: OldDesignator=TP29 NewDesignator=F
+Change Component Designator: OldDesignator=TP30 NewDesignator=H
+Change Component Designator: OldDesignator=TP31 NewDesignator=C
+Change Component Designator: OldDesignator=TP32 NewDesignator=G
+Change Component Designator: OldDesignator=TP33 NewDesignator=B
+Change Net Name : Old Net Name=NetC72_1 New Net Name=NetB_1

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=Max1-6
+Added Component: Designator=Rl1(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "100ohms"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Rl1-1
+Added Pin To Net: NetName=NetMax1_6 Pin=Max1-6
+Added Pin To Net: NetName=NetMax1_6 Pin=Rl1-2
+Added Net: Name=NetMax1_6
+Added Member To Class: ClassName=Protection_logic Member=Component Rl1 res_smd

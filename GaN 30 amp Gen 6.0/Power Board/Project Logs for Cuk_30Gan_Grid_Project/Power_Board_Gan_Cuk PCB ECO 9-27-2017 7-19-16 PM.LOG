@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=common NewDesignator=Jumper1
+Added Member To Class: ClassName=Power_Board Member=Component GaN? GS66508B

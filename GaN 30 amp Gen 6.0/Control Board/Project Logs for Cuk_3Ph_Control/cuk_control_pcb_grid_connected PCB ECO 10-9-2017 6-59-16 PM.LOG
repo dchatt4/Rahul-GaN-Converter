@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=12V_SS1 Pin=C5-2
+Added Pin To Net: NetName=12V_SS2 Pin=C14-2
+Added Pin To Net: NetName=12V_SS1 Pin=U2-3
+Added Pin To Net: NetName=12V_SS2 Pin=U5-3
+Added Member To Class: ClassName=CUK_3Ph_Power_Supplys Member=Component NMH1 NMH1209SC

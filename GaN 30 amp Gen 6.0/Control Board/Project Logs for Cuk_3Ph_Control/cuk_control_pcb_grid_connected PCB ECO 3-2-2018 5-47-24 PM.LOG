@@ -1,0 +1,76 @@
+Added Component: Designator=Rx1(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=Rx2(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=Rx3(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=Rx4(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=Rx5(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=Rx6(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DSPGND Pin=Rx2-1
+Added Pin To Net: NetName=DSPGND Pin=Rx4-1
+Added Pin To Net: NetName=DSPGND Pin=Rx6-1
+Added Pin To Net: NetName=GND_S Pin=U14-3
+Added Pin To Net: NetName=NetRx1_1 Pin=Rx1-1
+Added Pin To Net: NetName=NetRx1_1 Pin=Rx2-2
+Added Pin To Net: NetName=NetRx1_1 Pin=U13-5
+Added Net: Name=NetRx1_1
+Added Pin To Net: NetName=NetRx1_2 Pin=Rx1-2
+Added Pin To Net: NetName=NetRx1_2 Pin=U13-4
+Added Net: Name=NetRx1_2
+Added Pin To Net: NetName=NetRx3_1 Pin=Rx3-1
+Added Pin To Net: NetName=NetRx3_1 Pin=Rx4-2
+Added Pin To Net: NetName=NetRx3_1 Pin=U13-3
+Added Net: Name=NetRx3_1
+Added Pin To Net: NetName=NetRx3_2 Pin=Rx3-2
+Added Pin To Net: NetName=NetRx3_2 Pin=U13-4
+Added Net: Name=NetRx3_2
+Added Pin To Net: NetName=NetRx5_1 Pin=Rx5-1
+Added Pin To Net: NetName=NetRx5_1 Pin=Rx6-2
+Added Pin To Net: NetName=NetRx5_1 Pin=U13-10
+Added Net: Name=NetRx5_1
+Added Pin To Net: NetName=NetRx5_2 Pin=Rx5-2
+Added Pin To Net: NetName=NetRx5_2 Pin=U13-4
+Added Net: Name=NetRx5_2
+Added Pin To Net: NetName=NetU13_1 Pin=U13-1
+Added Pin To Net: NetName=NetU13_1 Pin=U13-2
+Added Net: Name=NetU13_1
+Added Pin To Net: NetName=NetU13_6 Pin=U13-6
+Added Pin To Net: NetName=NetU13_6 Pin=U13-7
+Added Net: Name=NetU13_6
+Added Pin To Net: NetName=NetU13_8 Pin=U13-8
+Added Pin To Net: NetName=NetU13_8 Pin=U13-9
+Added Net: Name=NetU13_8
+Added Pin To Net: NetName=NetU14_1 Pin=U14-1
+Added Pin To Net: NetName=NetU14_1 Pin=U14-2
+Added Net: Name=NetU14_1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx1 Res1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx2 Res1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx3 Res1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx4 Res1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx5 Res1
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component Rx6 Res1

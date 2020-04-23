@@ -1,0 +1,6 @@
+Added Component: Designator=TP6(Test Point)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND_SS1 Pin=TP6-1
+Added Member To Class: ClassName=Power_Board Member=Component CP1 Cap_CP
+Added Member To Class: ClassName=Power_Board Member=Component R4 res_snubber
+Added Member To Class: ClassName=Power_Board Member=Component TP6 Test Point

@@ -1,0 +1,86 @@
+Added Component: Designator=R47(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R48(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R51(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R73(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R83(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R91(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R92(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R93(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Component: Designator=R94(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R47-2
+Added Pin To Net: NetName=GND Pin=R48-2
+Added Pin To Net: NetName=GND Pin=R51-2
+Added Pin To Net: NetName=DSP_GND Pin=R73-2
+Added Pin To Net: NetName=GND Pin=R83-2
+Added Pin To Net: NetName=GND Pin=R91-2
+Added Pin To Net: NetName=GND Pin=R92-2
+Added Pin To Net: NetName=GND Pin=R93-2
+Added Pin To Net: NetName=GND Pin=R94-2
+Added Pin To Net: NetName=Netdigitalopt1_3 Pin=digitalopt1-3
+Added Pin To Net: NetName=Netdigitalopt1_3 Pin=R51-1
+Added Net: Name=Netdigitalopt1_3
+Added Pin To Net: NetName=Netdigitalopt1_6 Pin=digitalopt1-6
+Added Pin To Net: NetName=Netdigitalopt1_6 Pin=R73-1
+Added Net: Name=Netdigitalopt1_6
+Added Pin To Net: NetName=NetLatch1_1 Pin=Latch1-1
+Added Pin To Net: NetName=NetLatch1_1 Pin=Latch1-14
+Added Pin To Net: NetName=NetLatch1_1 Pin=Latch1-15
+Added Pin To Net: NetName=NetLatch1_1 Pin=R47-1
+Added Net: Name=NetLatch1_1
+Added Pin To Net: NetName=NetLatch1_6 Pin=Latch1-6
+Added Pin To Net: NetName=NetLatch1_6 Pin=Latch1-7
+Added Pin To Net: NetName=NetLatch1_6 Pin=Latch1-9
+Added Pin To Net: NetName=NetLatch1_6 Pin=R48-1
+Added Pin To Net: NetName=NetLatch1_6 Pin=R83-1
+Added Net: Name=NetLatch1_6
+Added Pin To Net: NetName=NetLatch1_10 Pin=Latch1-10
+Added Pin To Net: NetName=NetLatch1_10 Pin=Latch1-11
+Added Pin To Net: NetName=NetLatch1_10 Pin=Latch1-12
+Added Net: Name=NetLatch1_10
+Added Pin To Net: NetName=NetLatch2_6 Pin=Latch2-6
+Added Pin To Net: NetName=NetLatch2_6 Pin=Latch2-7
+Added Pin To Net: NetName=NetLatch2_6 Pin=Latch2-9
+Added Pin To Net: NetName=NetLatch2_6 Pin=R93-1
+Added Net: Name=NetLatch2_6
+Added Pin To Net: NetName=NetLatch2_10 Pin=Latch2-10
+Added Pin To Net: NetName=NetLatch2_10 Pin=Latch2-11
+Added Pin To Net: NetName=NetLatch2_10 Pin=Latch2-12
+Added Pin To Net: NetName=NetLatch2_10 Pin=R94-1
+Added Net: Name=NetLatch2_10
+Added Pin To Net: NetName=NetOR1_8 Pin=OR1-8
+Added Pin To Net: NetName=NetOR1_8 Pin=OR1-9
+Added Pin To Net: NetName=NetOR1_8 Pin=OR1-10
+Added Pin To Net: NetName=NetOR1_8 Pin=R92-1
+Added Net: Name=NetOR1_8
+Added Pin To Net: NetName=NetOR1_11 Pin=OR1-11
+Added Pin To Net: NetName=NetOR1_11 Pin=OR1-12
+Added Pin To Net: NetName=NetOR1_11 Pin=OR1-13
+Added Pin To Net: NetName=NetOR1_11 Pin=R91-1
+Added Net: Name=NetOR1_11
+Added Member To Class: ClassName=Protection_logic Member=Component R47 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R48 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R51 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R73 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R83 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R91 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R92 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R93 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R94 res_smd

@@ -1,0 +1,22 @@
+Added Component: Designator=OR?(2inputor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Net6_1 Pin=OR?-1
+Added Pin To Net: NetName=Net6_5 Pin=OR?-5
+Added Pin To Net: NetName=GND Pin=OR?-7
+Added Pin To Net: NetName=+5V_P Pin=OR?-14
+Change Net Name : Old Net Name=Net6_1 New Net Name=NetFB9_1
+Change Net Name : Old Net Name=Net6_5 New Net Name=NetFB12_1
+Added Pin To Net: NetName=NetFB10_1 Pin=FB10-1
+Added Pin To Net: NetName=NetFB10_1 Pin=OR?-2
+Added Pin To Net: NetName=NetFB10_1 Pin=TP36-1
+Added Net: Name=NetFB10_1
+Added Pin To Net: NetName=NetOR?_3 Pin=OR?-3
+Added Pin To Net: NetName=NetOR?_3 Pin=Roc1tot-1
+Added Net: Name=NetOR?_3
+Added Pin To Net: NetName=NetOR?_4 Pin=OR?-4
+Added Pin To Net: NetName=NetOR?_4 Pin=R71-1
+Added Net: Name=NetOR?_4
+Added Pin To Net: NetName=NetOR?_6 Pin=OR?-6
+Added Pin To Net: NetName=NetOR?_6 Pin=Rlatch1-1
+Added Net: Name=NetOR?_6
+Added Member To Class: ClassName=Protection_logic Member=Component OR? 2input or595-SN74AS32DR

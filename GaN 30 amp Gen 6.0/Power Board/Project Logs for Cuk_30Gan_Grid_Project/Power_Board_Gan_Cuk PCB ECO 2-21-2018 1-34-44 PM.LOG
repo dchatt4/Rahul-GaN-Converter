@@ -1,0 +1,59 @@
+Removed Member From Class: ClassName=Gate_Drivers Member=C58
+Removed Member From Class: ClassName=Gate_Drivers Member=C59
+Removed Member From Class: ClassName=Gate_Drivers Member=C60
+Removed Member From Class: ClassName=Gate_Drivers Member=C61
+Removed Member From Class: ClassName=Protection_logic Member=C66
+Removed Member From Class: ClassName=Gate_Drivers Member=C70
+Removed Member From Class: ClassName=Gate_Drivers Member=C71
+Removed Member From Class: ClassName=Power_Supply Member=C75
+Removed Member From Class: ClassName=Gate_Drivers Member=digitalopt3
+Removed Member From Class: ClassName=Power_Supply Member=R70
+Removed Member From Class: ClassName=Power_Supply Member=R73
+Removed Member From Class: ClassName=Protection_logic Member=TP28
+Removed Member From Class: ClassName=Power_Supply2 Member=TP38
+Removed Member From Class: ClassName=Protection_logic Member=ZD1
+Added Member To Class: ClassName=Gate_Drivers Member=Component C38 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C39 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C40 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C44 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C45 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C46 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C50 100nF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C51 100nF
+Added Member To Class: ClassName=Power_Supply Member=Component C65 Cap Semi
+Added Member To Class: ClassName=Power_Supply Member=Component C67 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C68 Cap Semi
+Added Member To Class: ClassName=Power_Supply Member=Component C69 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C72 22uF
+Added Member To Class: ClassName=Protection_logic Member=Component C82 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C83 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C85 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C86 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C87 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component C88 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C90 16V
+Added Member To Class: ClassName=Protection_logic Member=Component C91 Cap Pol3
+Added Member To Class: ClassName=Power_Supply2 Member=Component C101 Cap
+Added Member To Class: ClassName=Gate_Drivers Member=Component digitalopt1 Dig opto SI8421BB-D-IS
+Added Member To Class: ClassName=Protection_logic Member=Component DZ3 MMSZ5221BS
+Added Member To Class: ClassName=Protection_logic Member=Component FB11 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component Max1 Comparator MAX942
+Added Member To Class: ClassName=Power_Supply Member=Component R47 res_smd
+Added Member To Class: ClassName=Power_Supply Member=Component R48 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R63 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R69 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R75 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R76 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R77 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R80 res_smd
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP22 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP23 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP30 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP37 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP38 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP39 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP46 Test Point
+Added Member To Class: ClassName=Power_Supply2 Member=Component TP48 Test point
+Added Member To Class: ClassName=Power_Supply2 Member=Component TP51 Test point
+Added Member To Class: ClassName=Power_Supply2 Member=Component TP53 Test point
+Added Member To Class: ClassName=Power_Supply2 Member=Component TP54 Test point

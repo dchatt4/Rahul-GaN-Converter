@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Vin2 Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Member From Class: ClassName=Power_Board Member=C12
+Added Member To Class: ClassName=Power_Board Member=Component RSP2 Res_Rd

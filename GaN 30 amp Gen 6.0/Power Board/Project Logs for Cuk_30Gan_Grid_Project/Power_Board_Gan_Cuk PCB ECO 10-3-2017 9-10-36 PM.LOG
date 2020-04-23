@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=L1 Old Footprint=Inductor_small New Footprint=Inductor_small_mirror
+Change Component Designator: OldDesignator=Aux1 NewDesignator=Logic supply
+Change Component Designator: OldDesignator=C38 NewDesignator=C36
+Change Net Name : Old Net Name=NetAux1_1 New Net Name=NetJumper1_1
+Added Member To Class: ClassName=Power_Supply Member=Component C38 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component MEJ1 MEJ2S1212SC

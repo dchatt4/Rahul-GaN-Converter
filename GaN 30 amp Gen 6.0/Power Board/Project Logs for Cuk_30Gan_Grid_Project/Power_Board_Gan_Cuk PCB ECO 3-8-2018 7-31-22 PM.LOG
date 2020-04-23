@@ -1,0 +1,106 @@
+Added Component: Designator=TP1(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP2(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP3(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP4(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP5(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP6(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP8(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP9(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP11(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP13(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP14(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP15(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP16(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP17(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP19(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP20(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP21(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP22(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP23(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP29(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP30(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP35(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP36(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP37(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP38(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP39(Test Point)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Vin1 Pin=TP1-1
+Added Pin To Net: NetName=NetC13_1 Pin=TP2-1
+Added Pin To Net: NetName=NetJumper1_1 Pin=TP3-1
+Added Pin To Net: NetName=Vin2 Pin=TP4-1
+Added Pin To Net: NetName=NetCurrent_Sense1_7 Pin=TP5-1
+Added Pin To Net: NetName=NetCurrent_Sense2_7 Pin=TP6-1
+Added Pin To Net: NetName=NetC21_2 Pin=TP8-1
+Added Pin To Net: NetName=NetC01_1 Pin=TP9-1
+Added Pin To Net: NetName=GND_SS1 Pin=TP11-1
+Added Pin To Net: NetName=NetCurrent_Sense3_7 Pin=TP13-1
+Added Pin To Net: NetName=NetCurrent_Sense4_7 Pin=TP14-1
+Added Pin To Net: NetName=NetC30_1 Pin=TP15-1
+Added Pin To Net: NetName=NetC31_2 Pin=TP16-1
+Added Pin To Net: NetName=NetC011_1 Pin=TP17-1
+Added Pin To Net: NetName=GND_SS2 Pin=TP19-1
+Added Pin To Net: NetName=NetGD1_1 Pin=TP20-1
+Added Pin To Net: NetName=NetGD2_1 Pin=TP21-1
+Added Pin To Net: NetName=NetGD3_1 Pin=TP22-1
+Added Pin To Net: NetName=NetGD4_1 Pin=TP23-1
+Added Pin To Net: NetName=GND Pin=TP29-1
+Added Pin To Net: NetName=NetLatch1_2 Pin=TP30-1
+Added Pin To Net: NetName=NetFB9_1 Pin=TP35-1
+Added Pin To Net: NetName=NetFB10_1 Pin=TP36-1
+Added Pin To Net: NetName=NetR70_1 Pin=TP37-1
+Added Pin To Net: NetName=NetFB12_1 Pin=TP38-1
+Added Pin To Net: NetName=NetR72_2 Pin=TP39-1
+Added Member To Class: ClassName=Power_Board Member=Component TP1 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP2 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP3 Test point
+Added Member To Class: ClassName=Power_Board Member=Component TP4 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP5 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP6 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP8 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP9 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP10 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP11 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP13 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP14 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP15 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP16 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP17 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP18 Test Point
+Added Member To Class: ClassName=Power_Board Member=Component TP19 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP20 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP21 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP22 Test Point
+Added Member To Class: ClassName=Gate_Drivers Member=Component TP23 Test Point
+Added Member To Class: ClassName=Power_Supply Member=Component TP29 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP30 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP35 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP36 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP37 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP38 Test Point
+Added Member To Class: ClassName=Protection_logic Member=Component TP39 Test Point

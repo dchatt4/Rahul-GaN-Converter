@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=Protection_logic Member=ZD1
+Added Pin To Net: NetName=GND Pin=GD1-4
+Added Member To Class: ClassName=Gate_Drivers Member=Component C42 22uF

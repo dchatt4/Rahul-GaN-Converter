@@ -1,0 +1,146 @@
+Removed Pin From Net: NetName=GND Pin=GaN1-S
+Removed Pin From Net: NetName=GND Pin=GaN1-SS
+Removed Pin From Net: NetName=GND Pin=GaN2-S
+Removed Pin From Net: NetName=GND Pin=GaN2-SS
+Removed Pin From Net: NetName=GND_SS1 Pin=GaN3-S
+Removed Pin From Net: NetName=GND_SS1 Pin=GaN3-SS
+Removed Pin From Net: NetName=GND_SS1 Pin=GaN4-S
+Removed Pin From Net: NetName=GND_SS1 Pin=GaN4-SS
+Removed Pin From Net: NetName=GND_SS2 Pin=GaN5-S
+Removed Pin From Net: NetName=GND_SS2 Pin=GaN5-SS
+Removed Pin From Net: NetName=GND_SS2 Pin=GaN6-S
+Removed Pin From Net: NetName=GND_SS2 Pin=GaN6-SS
+Removed Pin From Net: NetName=GND Pin=GaN7-S
+Removed Pin From Net: NetName=GND Pin=GaN7-SS
+Removed Pin From Net: NetName=GND Pin=GaN8-S
+Removed Pin From Net: NetName=GND Pin=GaN8-SS
+Removed Pin From Net: NetName=GND Pin=GaN9-S
+Removed Pin From Net: NetName=GND Pin=GaN9-SS
+Removed Pin From Net: NetName=GND Pin=GaN10-S
+Removed Pin From Net: NetName=GND Pin=GaN10-SS
+Change Component Comment : Designator=Cs2 Old Comment=10nF New Comment=990pF
+Change Component Comment : Designator=Cd1 Old Comment=Cd New Comment=15uF
+Change Component Comment : Designator=Cd2 Old Comment=Cd New Comment=15uF
+Change component parameters: Designator = "Cs4"; Footprint = "Cap-Cs"; UniqueID = "\BMFGPCKO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "990pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9"; Footprint = "Res_Snub"; UniqueID = "\MPFXGANP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "5 ohm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RSP2"; Footprint = "Res-RS"; UniqueID = "\RTFMRECO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "5 ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R33(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R34(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R43(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R52(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R53(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R54(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R55(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R56(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R57(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=R58(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=Rsense1(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense2(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense3(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rsense4(Sense resistor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=R33-2
+Added Pin To Net: NetName=GND Pin=R34-2
+Added Pin To Net: NetName=GND Pin=R43-2
+Added Pin To Net: NetName=GND_SS1 Pin=R52-2
+Added Pin To Net: NetName=GND_SS1 Pin=R53-2
+Added Pin To Net: NetName=GND_SS2 Pin=R54-2
+Added Pin To Net: NetName=GND_SS2 Pin=R55-2
+Added Pin To Net: NetName=GND Pin=R56-2
+Added Pin To Net: NetName=GND Pin=R57-2
+Added Pin To Net: NetName=GND Pin=R58-2
+Added Pin To Net: NetName=NetGaN1_SS Pin=GaN1-SS
+Added Pin To Net: NetName=NetGaN1_SS Pin=R33-1
+Added Net: Name=NetGaN1_SS
+Added Pin To Net: NetName=NetGaN1_S Pin=GaN1-S
+Added Pin To Net: NetName=NetGaN1_S Pin=GaN2-S
+Added Pin To Net: NetName=NetGaN1_S Pin=GaN9-S
+Added Net: Name=NetGaN1_S
+Added Pin To Net: NetName=NetGaN2_SS Pin=GaN2-SS
+Added Pin To Net: NetName=NetGaN2_SS Pin=R34-1
+Added Net: Name=NetGaN2_SS
+Added Pin To Net: NetName=NetGaN3_SS Pin=GaN3-SS
+Added Pin To Net: NetName=NetGaN3_SS Pin=R52-1
+Added Net: Name=NetGaN3_SS
+Added Pin To Net: NetName=NetGaN3_S Pin=GaN3-S
+Added Pin To Net: NetName=NetGaN3_S Pin=GaN4-S
+Added Net: Name=NetGaN3_S
+Added Pin To Net: NetName=NetGaN4_SS Pin=GaN4-SS
+Added Pin To Net: NetName=NetGaN4_SS Pin=R53-1
+Added Net: Name=NetGaN4_SS
+Added Pin To Net: NetName=NetGaN5_SS Pin=GaN5-SS
+Added Pin To Net: NetName=NetGaN5_SS Pin=R54-1
+Added Net: Name=NetGaN5_SS
+Added Pin To Net: NetName=NetGaN5_S Pin=GaN5-S
+Added Pin To Net: NetName=NetGaN5_S Pin=GaN6-S
+Added Net: Name=NetGaN5_S
+Added Pin To Net: NetName=NetGaN6_SS Pin=GaN6-SS
+Added Pin To Net: NetName=NetGaN6_SS Pin=R55-1
+Added Net: Name=NetGaN6_SS
+Added Pin To Net: NetName=NetGaN7_SS Pin=GaN7-SS
+Added Pin To Net: NetName=NetGaN7_SS Pin=R56-1
+Added Net: Name=NetGaN7_SS
+Added Pin To Net: NetName=NetGaN7_S Pin=GaN7-S
+Added Pin To Net: NetName=NetGaN7_S Pin=GaN8-S
+Added Pin To Net: NetName=NetGaN7_S Pin=GaN10-S
+Added Net: Name=NetGaN7_S
+Added Pin To Net: NetName=NetGaN8_SS Pin=GaN8-SS
+Added Pin To Net: NetName=NetGaN8_SS Pin=R57-1
+Added Net: Name=NetGaN8_SS
+Added Pin To Net: NetName=NetGaN9_SS Pin=GaN9-SS
+Added Pin To Net: NetName=NetGaN9_SS Pin=R43-1
+Added Net: Name=NetGaN9_SS
+Added Pin To Net: NetName=NetGaN10_SS Pin=GaN10-SS
+Added Pin To Net: NetName=NetGaN10_SS Pin=R58-1
+Added Net: Name=NetGaN10_SS
+Added Net: Name=NetRsense1_E1
+Added Net: Name=NetRsense1_E2
+Added Net: Name=NetRsense2_E1
+Added Net: Name=NetRsense2_E2
+Added Net: Name=NetRsense3_E1
+Added Net: Name=NetRsense3_E2
+Added Net: Name=NetRsense4_E1
+Added Net: Name=NetRsense4_E2
+Added Member To Class: ClassName=Power_Board Member=Component R33 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R34 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R43 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R52 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R53 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R54 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R55 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R56 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R57 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component R58 res_smd
+Added Member To Class: ClassName=Power_Board Member=Component Rsense1 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense2 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense3 Sense Resistor
+Added Member To Class: ClassName=Power_Board Member=Component Rsense4 Sense Resistor

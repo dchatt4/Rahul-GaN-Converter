@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=GND Pin=C80-1
+Added Member To Class: ClassName=Power_Board Member=Component GaN8 GS66508B

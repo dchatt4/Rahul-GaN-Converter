@@ -1,0 +1,15 @@
+Added Component: Designator=R51(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=R73(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "120K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Max1-6
+Added Pin To Net: NetName=+5V_P Pin=R51-2
+Added Pin To Net: NetName=GND Pin=R73-1
+Added Pin To Net: NetName=NetMax1_5 Pin=Max1-5
+Added Pin To Net: NetName=NetMax1_5 Pin=R51-1
+Added Pin To Net: NetName=NetMax1_5 Pin=R73-2
+Added Net: Name=NetMax1_5
+Added Member To Class: ClassName=Protection_logic Member=Component R51 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component R73 res_smd

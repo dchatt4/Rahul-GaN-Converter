@@ -1,0 +1,136 @@
+Removed Pin From Net: NetName=DSP_3V3 Pin=C31-1
+Removed Pin From Net: NetName=DSPGND Pin=C31-2
+Removed Pin From Net: NetName=NetOPT3_6 Pin=P3-14
+Removed Pin From Net: NetName=NetOPT3_4 Pin=P3-23
+Removed Pin From Net: NetName=NetOPT3_5 Pin=P3-25
+Removed Pin From Net: NetName=NetDAC1_2 Pin=P3-27
+Removed Pin From Net: NetName=NetDAC1_19 Pin=P3-28
+Removed Pin From Net: NetName=x1 Pin=P3-29
+Removed Pin From Net: NetName=NetDAC1_4 Pin=P3-30
+Removed Pin From Net: NetName=NetOPT3_10 Pin=R36-1
+Removed Pin From Net: NetName=P5V Pin=R36-2
+Removed Pin From Net: NetName=NetOPT3_13 Pin=TP15-1
+Removed Pin From Net: NetName=NetOPT3_12 Pin=TP16-1
+Removed Pin From Net: NetName=NetOPT3_11 Pin=TP25-1
+Removed Member From Class: ClassName=CUK_3Ph_dig_iso_interface Member=C31
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP2
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP7
+Removed Member From Class: ClassName=CUK_3Ph_dig_iso_interface Member=TP15
+Removed Member From Class: ClassName=CUK_3Ph_dig_iso_interface Member=TP16
+Added Component: Designator=C30(Capacitor 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470nF"; VariantName = "[No Variations]"
+Added Component: Designator=Digital ISO1(SOIC16 Narrow width)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1(HDR2X15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R45(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R46(0805 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(Test Point)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP9(Test Point)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=P5V Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=DSP_3V3 Pin=Digital ISO1-1
+Added Pin To Net: NetName=DSPGND Pin=Digital ISO1-2
+Added Pin To Net: NetName=DSPGND Pin=Digital ISO1-8
+Added Pin To Net: NetName=GND Pin=Digital ISO1-9
+Added Pin To Net: NetName=GND Pin=Digital ISO1-15
+Added Pin To Net: NetName=P5V Pin=Digital ISO1-16
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=NetOPT3_15 Pin=P1-7
+Added Pin To Net: NetName=NetOPT3_15 Pin=P1-8
+Added Pin To Net: NetName=NetOPT3_14 Pin=P1-9
+Added Pin To Net: NetName=NetOPT3_14 Pin=P1-10
+Added Pin To Net: NetName=12V_P Pin=P1-11
+Added Pin To Net: NetName=12V_P Pin=P1-12
+Added Pin To Net: NetName=NetOPT3_13 Pin=P1-13
+Added Pin To Net: NetName=NetOPT3_13 Pin=P1-14
+Added Pin To Net: NetName=GND Pin=P1-17
+Added Pin To Net: NetName=GND Pin=P1-18
+Added Pin To Net: NetName=NetOPT3_12 Pin=P1-19
+Added Pin To Net: NetName=NetOPT3_12 Pin=P1-20
+Added Pin To Net: NetName=GND Pin=P1-21
+Added Pin To Net: NetName=GND Pin=P1-22
+Added Pin To Net: NetName=GND Pin=P1-25
+Added Pin To Net: NetName=GND Pin=P1-26
+Added Pin To Net: NetName=NetOPT3_11 Pin=P1-27
+Added Pin To Net: NetName=NetOPT3_11 Pin=P1-28
+Added Pin To Net: NetName=NetOPT3_4 Pin=P3-10
+Added Pin To Net: NetName=NetOPT3_5 Pin=P3-12
+Added Pin To Net: NetName=NetDAC1_2 Pin=P3-23
+Added Pin To Net: NetName=NetDAC1_19 Pin=P3-24
+Added Pin To Net: NetName=x1 Pin=P3-25
+Added Pin To Net: NetName=NetDAC1_4 Pin=P3-26
+Added Pin To Net: NetName=P5V Pin=R36-1
+Added Pin To Net: NetName=NetOPT3_10 Pin=R36-2
+Added Pin To Net: NetName=DSP_3V3 Pin=R45-1
+Added Pin To Net: NetName=P5V Pin=R46-2
+Added Pin To Net: NetName=NetOPT3_11 Pin=TP2-1
+Added Pin To Net: NetName=NetOPT3_13 Pin=TP17-1
+Added Pin To Net: NetName=NetOPT3_12 Pin=TP18-1
+Added Pin To Net: NetName=NetDigital ISO1_3 Pin=Digital ISO1-3
+Added Pin To Net: NetName=NetDigital ISO1_3 Pin=P3-14
+Added Net: Name=NetDigital ISO1_3
+Added Pin To Net: NetName=NetDigital ISO1_4 Pin=Digital ISO1-4
+Added Pin To Net: NetName=NetDigital ISO1_4 Pin=P3-15
+Added Net: Name=NetDigital ISO1_4
+Added Pin To Net: NetName=NetDigital ISO1_5 Pin=Digital ISO1-5
+Added Pin To Net: NetName=NetDigital ISO1_5 Pin=P3-16
+Added Net: Name=NetDigital ISO1_5
+Added Pin To Net: NetName=NetDigital ISO1_7 Pin=Digital ISO1-7
+Added Pin To Net: NetName=NetDigital ISO1_7 Pin=R45-2
+Added Net: Name=NetDigital ISO1_7
+Added Pin To Net: NetName=NetDigital ISO1_10 Pin=Digital ISO1-10
+Added Pin To Net: NetName=NetDigital ISO1_10 Pin=R46-1
+Added Net: Name=NetDigital ISO1_10
+Added Pin To Net: NetName=NetDigital ISO1_12 Pin=Digital ISO1-12
+Added Pin To Net: NetName=NetDigital ISO1_12 Pin=TP9-1
+Added Net: Name=NetDigital ISO1_12
+Added Pin To Net: NetName=NetDigital ISO1_13 Pin=Digital ISO1-13
+Added Pin To Net: NetName=NetDigital ISO1_13 Pin=P1-1
+Added Pin To Net: NetName=NetDigital ISO1_13 Pin=P1-2
+Added Pin To Net: NetName=NetDigital ISO1_13 Pin=TP7-1
+Added Net: Name=NetDigital ISO1_13
+Added Pin To Net: NetName=NetDigital ISO1_14 Pin=Digital ISO1-14
+Added Pin To Net: NetName=NetDigital ISO1_14 Pin=P1-3
+Added Pin To Net: NetName=NetDigital ISO1_14 Pin=P1-4
+Added Pin To Net: NetName=NetDigital ISO1_14 Pin=TP5-1
+Added Net: Name=NetDigital ISO1_14
+Added Pin To Net: NetName=NetP1_23 Pin=P1-23
+Added Pin To Net: NetName=NetP1_23 Pin=P1-24
+Added Net: Name=NetP1_23
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component C30 Cap
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component Digital ISO1 Si8631BC-B-IS1
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component P1 Header 15X2
+Added Member To Class: ClassName=DAC Member=Component R38 Res1
+Added Member To Class: ClassName=DAC Member=Component R40 Res1
+Added Member To Class: ClassName=DAC Member=Component R42 Res1
+Added Member To Class: ClassName=DAC Member=Component R44 Res1
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component R45 Res1
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component R46 Res1
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component TP2 Test point
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component TP5 Test point
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component TP7 Test point
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component TP9 Test point
+Added Member To Class: ClassName=CUK_3Ph_Analog_Isolation Member=Component U10 TL074CNSR

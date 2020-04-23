@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=Vin1 Pin=CIN5-1
+Removed Pin From Net: NetName=GND Pin=CIN5-2
+Removed Pin From Net: NetName=GND Pin=CIN6-1
+Removed Pin From Net: NetName=Vin2 Pin=CIN6-2
+Removed Pin From Net: NetName=Vin1 Pin=CIN7-1
+Removed Pin From Net: NetName=GND Pin=CIN7-2
+Removed Pin From Net: NetName=GND Pin=CIN8-1
+Removed Pin From Net: NetName=Vin2 Pin=CIN8-2
+Removed Pin From Net: NetName=Vin1 Pin=CIN9-1
+Removed Pin From Net: NetName=GND Pin=CIN9-2
+Removed Pin From Net: NetName=GND Pin=CIN10-1
+Removed Pin From Net: NetName=Vin2 Pin=CIN10-2
+Removed Member From Class: ClassName=Gate_Drivers Member=6
+Removed Member From Class: ClassName=Gate_Drivers Member=7
+Removed Member From Class: ClassName=Gate_Drivers Member=8
+Removed Member From Class: ClassName=Protection_logic Member=C62
+Removed Member From Class: ClassName=Power_Supply2 Member=C93
+Removed Member From Class: ClassName=Power_Board Member=CIN5
+Removed Member From Class: ClassName=Power_Board Member=CIN6
+Removed Member From Class: ClassName=Power_Board Member=CIN7
+Removed Member From Class: ClassName=Power_Board Member=CIN8
+Removed Member From Class: ClassName=Power_Board Member=CIN9
+Removed Member From Class: ClassName=Power_Board Member=CIN10
+Removed Member From Class: ClassName=Protection_logic Member=ZD1
+Added Member To Class: ClassName=Gate_Drivers Member=Component 2 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component 3 Si8271GB-IS
+Added Member To Class: ClassName=Gate_Drivers Member=Component 4 Si8271GB-IS
+Added Member To Class: ClassName=Power_Board Member=Component C1 3300uF
+Added Member To Class: ClassName=Power_Board Member=Component C2 3300uF
+Added Member To Class: ClassName=Gate_Drivers Member=Component C41 100nF
+Added Member To Class: ClassName=Power_Supply Member=Component C56 16V
+Added Member To Class: ClassName=Power_Supply Member=Component C57 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C69 Cap Pol3
+Added Member To Class: ClassName=Power_Supply Member=Component C70 22uF
+Added Member To Class: ClassName=Power_Supply2 Member=Component C95 16V
+Added Member To Class: ClassName=Power_Supply2 Member=Component C102 Cap Semi
+Added Member To Class: ClassName=Power_Supply2 Member=Component C103 Cap Semi
+Added Member To Class: ClassName=Power_Supply2 Member=Component C104 Cap Pol3
+Added Member To Class: ClassName=Protection_logic Member=Component D5 LED2
+Added Member To Class: ClassName=Protection_logic Member=Component D6 LED2
+Added Member To Class: ClassName=Protection_logic Member=Component digitalopt1 Dig opto SI8421BB-D-IS
+Added Member To Class: ClassName=Power_Supply2 Member=Component U4 L78L05ABUTR
+Added Member To Class: ClassName=Power_Supply2 Member=Component U5 L79L05ABUTR

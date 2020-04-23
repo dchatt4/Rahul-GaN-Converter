@@ -1,0 +1,118 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Harshit\Desktop\GaN 30 amp Gen 6.0\Power Board\Power_Board_Gan_Cuk.PcbDoc
+Date     : 3/9/2018
+Time     : 12:42:00 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNet('GND_SS1')),(InComponentClass('Power_Board'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16531.205mil,24840.205mil)(16592.858mil,24840.205mil) on Top Layer And Pad 7-2(16592.858mil,24865.795mil) on Top Layer 
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16531.205mil,24840.205mil)(16592.858mil,24840.205mil) on Top Layer And Pad 7-4(16592.858mil,24814.614mil) on Top Layer 
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16825.142mil,24865.795mil)(16864.205mil,24865.795mil) on Top Layer And Pad 7-8(16825.142mil,24891.386mil) on Top Layer 
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16825.142mil,24891.386mil)(16970.984mil,24891.386mil) on Top Layer And Pad 7-7(16825.142mil,24865.795mil) on Top Layer 
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16838.614mil,24840.205mil)(16864.205mil,24865.795mil) on Top Layer And Pad 7-5(16825.142mil,24814.614mil) on Top Layer 
+   Violation between Clearance Constraint: (9.232mil < 10mil) Between Track (16825.142mil,24840.205mil)(16838.614mil,24840.205mil) on Top Layer And Pad 7-5(16825.142mil,24814.614mil) on Top Layer 
+Rule Violations :6
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNet('NetC48_2')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InComponentClass('Power_Board')),(InComponentClass('Power_Board'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNet('NetC48_1')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetFB1_2 Between Pad GaN2-G(15237.913mil,24044.646mil) on Top Layer And Pad GaN1-G(15237.913mil,24512.52mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetFB3_2 Between Pad FB4-2(15136.351mil,28156.762mil) on Top Layer And Pad GaN4-G(15137.913mil,27709.646mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net DSP_5V Between Track (18450mil,23750mil)(18450mil,23850mil) on HF Layer And Track (19850mil,25910mil)(19850mil,26010mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetFB5_2 Between Pad FB6-2(21485.879mil,24752.879mil) on Top Layer And Pad FB5-2(21505.879mil,24324.121mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetFB7_2 Between Pad FB8-2(22040.879mil,27964.121mil) on Top Layer And Pad FB7-2(22041.879mil,28392.879mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Un-Connected Pin Constraint ( (All) )
+   Violation between Un-Connected Pin Constraint: Pad ZD11-3(17901mil,27412.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD12-3(16650.756mil,24988mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad Not1-1(18855.598mil,25139.882mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad Latch1-13(19283.283mil,24713mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD14-3(17169mil,25016.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad 8-7(17056.252mil,24521mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad 8-8(17056.252mil,24571mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad 8-3(16837.748mil,24471mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad 8-1(16837.748mil,24571mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ov1z-3(18546.244mil,24465mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZDoc--3(17892mil,25124.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZDoc1-3(18292mil,25174.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD13-3(16277.244mil,24629mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad Max1-7(18924.299mil,27920.984mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD10-3(18642mil,28192.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD8-3(22024mil,28507.756mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD7-3(21981mil,27780.756mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD5-3(21409.756mil,24892mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD6-3(21447mil,24106.756mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD4-3(15361.407mil,27690.407mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD3-3(15309mil,28405.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD2-3(15420mil,23962.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD1-3(15425mil,24762.244mil) on Top Layer 
+   Violation between Un-Connected Pin Constraint: Pad Latch2-13(17794.716mil,24100mil) on Bottom Layer 
+   Violation between Un-Connected Pin Constraint: Pad ZD9-3(17911.189mil,27915.244mil) on Bottom Layer 
+Rule Violations :25
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=200mil) (Preferred=50mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=12mil) (MaxHoleWidth=28mil) (PreferredHoleWidth=28mil) (MinWidth=15mil) (MaxWidth=100mil) (PreferedWidth=50mil) (All)
+   Violation between Routing Via Style: Via (14033mil,26762mil) from Top Layer to Bottom Layer Actual Size : 100mil Actual Hole Size : 50mil
+Rule Violations :1
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=10mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=15mil) (Max=15mil) (Prefered=15mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Assembly Testpoint Style (Under Component=Yes) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Assembly Testpoint Usage (Valid =One Required, Allow multiple per net=No) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = Infinite ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = Infinite ) ((HasFootprint('Control Board'))),((InComponentClass('All Components'))) 
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+
+Violations Detected : 37
+Waived Violations : 0
+Time Elapsed        : 00:00:16

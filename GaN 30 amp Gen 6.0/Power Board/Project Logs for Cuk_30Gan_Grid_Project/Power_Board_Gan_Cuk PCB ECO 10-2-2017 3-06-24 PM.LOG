@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=Aux1-1
+Added Pin To Net: NetName=GND Pin=Aux1-2
+Added Pin To Net: NetName=NetAux1_1 Pin=Aux1-1
+Added Pin To Net: NetName=NetAux1_1 Pin=Jumper1-1
+Added Pin To Net: NetName=NetAux1_1 Pin=TP33-1
+Added Net: Name=NetAux1_1
+Added Member To Class: ClassName=Power_Supply Member=Component CM1 CMC-08
+Added Member To Class: ClassName=Power_Board Member=Component GaN3 GS66508B
+Added Member To Class: ClassName=Gate_Drivers Member=Component R12 Res3
+Added Member To Class: ClassName=Power_Supply Member=Component R25 res_smd
+Added Member To Class: ClassName=Power_Supply Member=Component XC3 XC6216C202PR-G

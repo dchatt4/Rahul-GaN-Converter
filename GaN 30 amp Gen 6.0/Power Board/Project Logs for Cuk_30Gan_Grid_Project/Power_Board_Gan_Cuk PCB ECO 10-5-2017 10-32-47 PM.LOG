@@ -1,0 +1,10 @@
+Added Component: Designator=SW?(Push Button _New)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR69_1 Pin=SW?-1
+Added Pin To Net: NetName=NetR69_1 Pin=SW?-1
+Added Pin To Net: NetName=NetLatch1_3 Pin=SW?-2
+Added Pin To Net: NetName=NetLatch1_3 Pin=SW?-2
+Added Member To Class: ClassName=Protection_logic Member=Component SW? PB- K5A2 4N AU

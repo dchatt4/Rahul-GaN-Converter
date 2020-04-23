@@ -1,0 +1,30 @@
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP2
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP5
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP7
+Removed Member From Class: ClassName=CUK_3Ph_Power_Supplys Member=TP9
+Added Component: Designator=P3(HDR2X20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetOPT3_2 Pin=P3-9
+Added Pin To Net: NetName=NetOPT3_4 Pin=P3-10
+Added Pin To Net: NetName=NetOPT3_3 Pin=P3-11
+Added Pin To Net: NetName=NetOPT3_5 Pin=P3-12
+Added Pin To Net: NetName=NetOPT3_6 Pin=P3-13
+Added Pin To Net: NetName=NetDigital ISO1_3 Pin=P3-14
+Added Pin To Net: NetName=NetDigital ISO1_4 Pin=P3-15
+Added Pin To Net: NetName=NetDigital ISO1_5 Pin=P3-16
+Added Pin To Net: NetName=DSPGND Pin=P3-19
+Added Pin To Net: NetName=DSPGND Pin=P3-20
+Added Pin To Net: NetName=NetDAC1_2 Pin=P3-23
+Added Pin To Net: NetName=NetDAC1_19 Pin=P3-24
+Added Pin To Net: NetName=x1 Pin=P3-25
+Added Pin To Net: NetName=NetDAC1_4 Pin=P3-26
+Added Pin To Net: NetName=SW-1 Pin=P3-34
+Added Pin To Net: NetName=LED1 Pin=P3-35
+Added Pin To Net: NetName=LED2 Pin=P3-36
+Added Pin To Net: NetName=LED3 Pin=P3-38
+Added Pin To Net: NetName=DSPGND Pin=P3-39
+Added Pin To Net: NetName=DSPGND Pin=P3-40
+Added Member To Class: ClassName=CUK_3Ph_dig_iso_interface Member=Component P3 DSK P8 Digital Interface

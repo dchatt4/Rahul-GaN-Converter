@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=G1 Pin=TP22-1
+Removed Pin From Net: NetName=G3 Pin=TP25-1
+Removed Pin From Net: NetName=G2 Pin=TP27-1
+Removed Pin From Net: NetName=G4 Pin=TP29-1
+Removed Member From Class: ClassName=Gate_Drivers Member=TP22
+Removed Member From Class: ClassName=Gate_Drivers Member=TP25
+Removed Member From Class: ClassName=Gate_Drivers Member=TP27
+Removed Member From Class: ClassName=Gate_Drivers Member=TP29
+Added Member To Class: ClassName=Protection_logic Member=Component C66 16V
+Added Member To Class: ClassName=Protection_logic Member=Component R57 res_smd
+Added Member To Class: ClassName=Protection_logic Member=Component ZD1 8.2 v
+Added Member To Class: ClassName=Protection_logic Member=Component ZD1 8.2 v

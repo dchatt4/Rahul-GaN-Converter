@@ -1,0 +1,7 @@
+Added Component: Designator=T2(TRANSFORMER_Mirror)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC30_2 Pin=T2-1
+Added Pin To Net: NetName=GND Pin=T2-2
+Added Pin To Net: NetName=GND_SS2 Pin=T2-3
+Added Pin To Net: NetName=NetC31_1 Pin=T2-4
+Added Member To Class: ClassName=Power_Board Member=Component T2 Transformer

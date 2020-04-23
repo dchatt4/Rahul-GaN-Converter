@@ -1,0 +1,75 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~125|Field=Description~String~Description~125|Field=Designator~String~Designator~125|Field=Footprint~String~Footprint~125|Field=LibRef~String~LibRef~125|Field=Quantity~Integer~Quantity~125|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Cuk_30Gan_Grid_Project.PrjPcb|ReportField=ProjectFullPath~C:\Users\Harshit\Desktop\1222017\20102017\all pcbs\garbage2\Main Boards\Power Board\Cuk_30Gan_Grid_Project.PrjPcb|ReportField=Title~Bill of Materials For Project [Cuk_30Gan_Grid_Project.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~392|ReportField=ReportTime~1:28:06 PM|ReportField=ReportDate~2/21/2018|ReportField=ReportDateTime~2/21/2018 1:28:06 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2/21/2018|ReportField=CurrentTime~1:27:58 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Harshit\Desktop\1222017\20102017\all pcbs\garbage2\Main Boards\Power Board\Gate_Drivers.SchDoc|ReportField=DocumentName~Gate_Drivers.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2/21/2018|ReportField=Organization~|ReportField=ProjectName~Cuk_30Gan_Grid_Project.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Cuk_30Gan_Grid_Project.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Harshit\Desktop\1222017\20102017\all pcbs\garbage2\Main Boards\Power Board\Cuk_30Gan_Grid_Project.PrjPcb|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Diode|VS-4ESH02HM3|D1, D2, D3, D4|TO-277A|Diode|4
+2|LED2|Typical RED, GREEN, YELLOW, AMBER GaAs LED|D13, D14|3.2X1.6X1.1|LED2|2
+3|PB- K5A2 4N AU|Switch|SW1|Push Button _New|SW-PB|1
+4|res_snubber|snubber_res_film|R15, R16, R18, R19|Res_Snub|res_snubber|4
+5|SN74LVC1G04-EP|SN74LVC1G04-EP|Not1|Inverter|Inverter|1
+6|res_smd|smd_res|FB9, FB10, FB11, FB12, FB13, FB14, FB15, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R17, R20, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, Rdis1, Rdis2, Rdis3, Rdis4, Rdis5, Rdis6, Rdis7, Rdis8|res_smd|res_smd|75
+7|20|Resistor|R25, R30|J1-0603|Res3|2
+8|Res3|Resistor|FB1, FB2, FB3, FB4, FB5, FB6, FB7, FB8, R21, R22, R23, R24, R26, R27, R28, R29, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40|J1-0603|Res3|26
+9|L78L05ABUTR|Positive Voltage Regulator|U4, U5, U6|Reg SOT-89 +5|L78L05ABZ|3
+10|16V|Polarized Capacitor (Surface Mount)|C58|1812|Cap Pol3|1
+11|Cap Pol3|Polarized Capacitor (Surface Mount)|C20, C21, C22, C23, C30, C31, C32, C33, C59, C63, C64|1812|Cap Pol3|11
+12|Cap Pol3|Polarized Capacitor (Surface Mount)|C62, C67, C69, C70, C71, C73, C78, C84, C85, C86, C87, C89, C91|C0805|Cap Pol3|13
+13|electrolytic|Polarized Capacitor (Radial)|C103|CAP-10u-16V|Cap Pol1|1
+14|Tantalium|Polarized Capacitor (Radial)|C102, C108|Cap tantal 22u-25V|Cap Pol1|2
+15|Tantalium/T520A226M006ATE090|Polarized Capacitor (Radial)|C98, C99, C104, C106|Cap Tantal 3216|Cap Pol1|4
+16|PMEG2010EPK|PMEG2010EPK|D5, D6, D7, D8, D9, D10, D11, D12|PMEG2010EPK|PMEG2010EPK|8
+17|L79L05ABUTR|Negative-Voltage Regulator|U7|Reg SOT-89|µA79M05CKTPR|1
+18|MMSZ5221BS|MMSZ5221BS|DZ1, DZ2, DZ3|MMSZ5221BS|MMSZ5221BS|3
+19|Comparator MAX942|MAX942ESA+|Max1, Max2|SOIC 8_ no EP|Max942|2
+20|TL074CN|Low-Noise JFET-Input Operational Amplifier|U3|DIP14|TL074J|1
+21|3300uF|LLS2A332MELC|C1, C2, C8, C9|Cap_3300uF_35mm height|3300uF|4
+22|Signals to DSP|Header, 16-Pin, Dual row|P2|HDR2X16|Header 16X2|1
+23|Signals from DSP|Header, 15-Pin, Dual row|P1|HDR2X15|Header 15X2|1
+24|Header 5X2|Header, 5-Pin, Dual row|P3|HDR2X5|Header 5X2|1
+25|INA240A1|GAIN 20|3|INA240|ina240|1
+26|8.2 v|DZ23C8V2-7-F|ZD1, ZD2, ZD3, ZD4, ZD5, ZD6, ZD7, ZD8, ZD9, ZD10, ZD11, ZD12, ZD13, ZD14|Zener Diode|Zener_diode|14
+27|CMC-08|Common mode choke|CM1, CM2|CMC-08|CMC-08|2
+28|SR NOR Latch|CD4043BDR|Latch1, Latch2|SR latch|SR Latch|2
+29|16V|Capacitor (Semiconductor SIM Model)|C60, C74, C79, C82, C83, C88, C90, C92, C93, C94, C95|C1206|Cap Semi|11
+30|Cap Semi|Capacitor (Semiconductor SIM Model)|C61, C65, C66, C68|C1206|Cap Semi|4
+31|Cap|Capacitor|C96, C97, C100, C101, C105, C107|Capacitor 0805|Cap|6
+32|20K|3296W-1-253LF|Pot1, Pot2, Pot3|Pot|TRIM POT|3
+33|100nF||C16, C17, C18, C19, C26, C27, C28, C29, C36, C37, C38, C39, C40, C41, C43, C44, C45, C46, C47, C49, C50, C51, C52, C54, C55, C57, C75, C76, C77, C80, C81|Cap_SMD|Cap_SMD|31
+34|15 ohm||RSP3|Res-RS|Res_Rd|1
+35|15uF||Cd1, Cd2, Cd3|Cd|Cd|3
+36|22uF||C42, C53, C56, C72|Cap_tantalum|Cap_tantalum|4
+37|22uF/25V||C48|Cap_tantalum|Cap_tantalum|1
+38|2input or595-SN74AS32DR||2|2inputor|2 input OR|1
+39|560p||Cs2|Cap-Cs|Cap-CS|1
+40|560pF||Cs3|Cap-Cs|Cap-CS|1
+41|990pF||Cs1|Cap-Cs|Cap-CS|1
+42|ACS712-05||Current_Sense1, Current_Sense2, Current_Sense3, Current_Sense4|SOIC-8|Current Sensor 5A|4
+43|Auxilary connector||Logic supply1|Auxlilary connector|Auxilary connector|1
+44|Cap cdv16ff101j03||Cs4|Cap-Cs|Cap-CS|1
+45|Cap DPPM10S22K-F||Csnub1, Csnub2|Cap-Csnub|Cap-Csnub|2
+46|Cap_CP||CP1, CP2, CP4|Cap_cp|Cap_CP|3
+47|Cap_CP||CP3|Cap_cp - small|Cap_CP|1
+48|Cd||Cd4|Cd|Cd|1
+49|Component_1||Con1, Con2, Con4, Con5, Con6, Con8|PCBComponent_1|Component_1|6
+50|Connector 60A||Load1|Connector_60A|Connector 60A|1
+51|Control Board||1|Control Board|Control Board|1
+52|DC Input||U1|P-terminal 3|P-Terminal 3|1
+53|Dig opto SI8421BB-D-IS||digitalopt1, digitalopt2, digitalopt3|SO8 TS27l2|Digital Isolator|3
+54|Grid Input for sense||Grid1|Auxlilary connector|Auxilary connector|1
+55|GS66508B||GaN1, GaN2, GaN3, GaN4, GaN5, GaN6, GaN7, GaN8|GS66508B|GS66508B|8
+56|Heat sink||Heat Sink1|Heat Sink|Heat sink|1
+57|inductor||L1|Inductor_small|inductor|1
+58|inductor||L2|Inductor_small_mirror|inductor|1
+59|Inductor smd||L_snub1, L_snub2|Inductor surface mount|Inductor smd|2
+60|Inductor_output||Ls1, Ls2|Inductor output|Inductor_output|2
+61|IXDD609SI||Gate_Driver1, Gate_Driver2, Gate_Driver3, Gate_Driver4|Gate driver _low side|Gate driver low side|4
+62|Jumper Vin||U2|P-Terminal 2|P-Terminal 2|1
+63|MEJ2S1212SC||MEJ1, MEJ2|MEJ2|Power supply2|2
+64|NCS6S4812C||Power1|Power_main|Power_main|1
+65|NMH1209SC||NMH1|NMH1209SC|NMH----SC_1|1
+66|Output_cap||C3, C4, C5, C6, C7, C10, C11, C12, C13, C14, C15, C24, C25, C34, C35|Output cap|Output_cap|15
+67|pcb CONNECTOR||Con3, Con7|PCB_CONNECTOR|pcb CONNECTOR|2
+68|p_jumper||Jumper1, Jumper2|Header1*3|p_jumper|2
+69|REF5025AIDR||4|REF52.5|REF5025AIDR|1
+70|Res_Rd||RSP1, RSP2, RSP4|Res-RS|Res_Rd|3
+71|Sense Resistor||Rsense1|Sense resistor|Sense Resistor|1
+72|Test Point||TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19, TP20, TP21, TP22, TP23, TP24, TP25, TP26, TP27, TP28, TP29, TP30, TP31, TP32, TP33, TP34, TP35, TP36, TP37, TP38, TP39, TP40, TP41, TP42, TP43, TP44, TP45, TP46, TP47, TP48, TP49, TP50, TP51, TP52, TP53, TP54|Test Point|Test Point|54
+73|Transformer||T1, T2|Transformer|Transformer|2
+74|XC6216C202PR-G||XC1, XC2, XC3|SOT-89-5|power supply|3

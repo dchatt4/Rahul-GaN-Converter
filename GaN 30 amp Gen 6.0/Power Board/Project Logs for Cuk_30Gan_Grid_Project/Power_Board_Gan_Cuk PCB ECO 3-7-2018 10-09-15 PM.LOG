@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=R83-1
+Removed Pin From Net: NetName=NetMax2_7 Pin=R83-2
+Removed Member From Class: ClassName=Protection_logic Member=R83
+Added Component: Designator=Rdev(res_smd)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "3.3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Rdev-1
+Added Pin To Net: NetName=NetMax2_7 Pin=Rdev-2
+Added Member To Class: ClassName=Protection_logic Member=Component Rdev res_smd

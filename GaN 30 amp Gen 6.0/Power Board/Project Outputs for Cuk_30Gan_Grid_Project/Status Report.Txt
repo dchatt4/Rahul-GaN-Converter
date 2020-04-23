@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Cuk_30Gan_Grid_Project.PrjPcb]
+   Generated File[Power_Board_Gan_Cuk.TXT]
+   Generated File[Power_Board_Gan_Cuk.LDP]
+   Generated File[Power_Board_Gan_Cuk.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:16:23 AM On 10/10/2017

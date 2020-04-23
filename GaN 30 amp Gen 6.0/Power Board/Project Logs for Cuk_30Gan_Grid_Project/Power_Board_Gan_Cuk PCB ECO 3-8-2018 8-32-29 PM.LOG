@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC13_1 Pin=TP2-1
+Removed Pin From Net: NetName=NetJumper1_1 Pin=TP3-1
+Removed Member From Class: ClassName=Power_Board Member=TP2
+Removed Member From Class: ClassName=Power_Board Member=TP3

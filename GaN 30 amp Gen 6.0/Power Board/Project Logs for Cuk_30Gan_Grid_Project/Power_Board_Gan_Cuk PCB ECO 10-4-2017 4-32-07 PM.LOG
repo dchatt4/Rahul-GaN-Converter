@@ -1,0 +1,7 @@
+Added Component: Designator=CP3(Cap_cp - small)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC51_1 Pin=CP3-1
+Added Pin To Net: NetName=NetC51_1 Pin=CP3-1
+Added Pin To Net: NetName=NetC51_2 Pin=CP3-2
+Added Pin To Net: NetName=NetC51_2 Pin=CP3-2
+Added Member To Class: ClassName=Power_Board Member=Component CP3 Cap_CP
